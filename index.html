@@ -34,50 +34,60 @@
       margin: 0;
       line-height: 1.6;
     }
+    .map-container {
+      width: 100%;
+      height: 500px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
   <div class="container mx-auto p-4 md:p-6">
     <div class="text-center mb-8">
       <h1 class="text-3xl md:text-5xl header-title mb-4">New Features Coming Soon</h1>
-   <!--   <p class="text-base md:text-lg text-gray-700">Detailed snowfall projections and key information are below.</p> -->
     </div>
 
-    <!-- Image Section
-    <div class="flex justify-center mb-8">
-      <img src="forecast_feb12.png" alt="Winter Storm Forecast Map" class="shadow-lg rounded-lg max-w-full md:max-w-3xl">
+    <!-- Map Selection -->
+    <div class="text-center mb-6">
+      <label for="mapType" class="text-lg font-semibold text-gray-700">Select Map Type:</label>
+      <select id="mapType" class="ml-2 p-2 border rounded-md shadow-sm bg-white text-gray-700">
+        <option value="google">Google Maps</option>
+        <option value="dark">Dark Map</option>
+        <option value="satellite">Satellite Map</option>
+      </select>
     </div>
--->
-    <!-- Forecast Text Section 
-    <div class="forecast-card bg-white p-6 md:p-8 rounded-lg">
-      <h2 class="text-xl md:text-2xl font-semibold mb-4 text-blue-700">Storm Synopsis</h2>
-      <p class="mb-4">
-        A powerful winter storm is moving across Ontario, bringing snowfall ranging from 2 to 35+ cm. 
-        Areas north of Highway 407 will experience at least 15 cm with some locations reaching 25 cm. 
-        The heaviest totals are expected north of Highway 401, particularly in the Ottawa Valley, where some regions could exceed 35 cm. 
-        Precipitation type will depend on the storm's track, with potential mixing near the 401 corridor.
-      </p>
-      <p class="mb-4">
-        If the mixing line stays south, particularly near the Niagara, Hamilton, and Brantford areas, 
-        snowfall totals in the western GTHA could be significantly higher, with totals potentially exceeding 20 cm due to lake enhancement. 
-        However, if the mixing line pushes further north towards the 401 corridor, snowfall totals will be much lower, 
-        likely around 10-15 cm, with a greater chance for sleet and freezing rain instead of snow which could decrease totals even more.
-      </p>
-      <p class="mb-4">
-        Travel will be hazardous during the storm's peak, especially as conditions change along the 401 corridor. 
-        Prepare for reduced visibility and icy conditions. Plan accordingly and stay updated on the latest forecasts as the situation evolves.
-      </p>
-      <p class="mb-4">
-        Last Update: 11:08am February 12th, 2025
-      </p>
-      <p class="font-bold mt-4 text-blue-800">Questions? Reply to our tweet! We’re happy to help!</p>
+
+    <!-- Map Display -->
+    <div class="map-container">
+      <iframe id="mapFrame"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239212107!2d-79.3831860031769!3d43.65322576795192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d870602bf7%3A0x4c1f52bc4d263a92!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1644870899283!5m2!1sen!2sca"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
     </div>
--->
+
     <!-- Footer Section -->
     <footer class="footer mt-12 text-center text-sm">
       <p>&copy; 2025 ONWeatherChaser</p>
       <p>Version 1.0.0 | Powered by InsightDynamics</p>
     </footer>
   </div>
+
+  <!-- JavaScript for Map Selection -->
+  <script>
+    document.getElementById('mapType').addEventListener('change', function() {
+      let mapFrame = document.getElementById('mapFrame');
+      let selectedMap = this.value;
+
+      if (selectedMap === 'google') {
+        mapFrame.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239212107!2d-79.3831860031769!3d43.65322576795192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d870602bf7%3A0x4c1f52bc4d263a92!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1644870899283!5m2!1sen!2sca";
+      } else if (selectedMap === 'dark') {
+        mapFrame.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239212107!2d-79.3831860031769!3d43.65322576795192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d870602bf7%3A0x4c1f52bc4d263a92!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1644870899283!5m2!1sen!2sca&style=dark";
+      } else if (selectedMap === 'satellite') {
+        mapFrame.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239212107!2d-79.3831860031769!3d43.65322576795192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d870602bf7%3A0x4c1f52bc4d263a92!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1644870899283!5m2!1sen!2sca&output=embed&maptype=satellite";
+      }
+    });
+  </script>
 </body>
 </html>
