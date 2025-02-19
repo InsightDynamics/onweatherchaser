@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,30 +11,36 @@
       background: linear-gradient(to bottom right, #f0f4f8, #dce3e8);
       font-family: 'Inter', sans-serif;
     }
+
     .header-title {
       background: linear-gradient(to right, #1e3a8a, #3b82f6);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-weight: 900;
     }
+
     .forecast-card {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
+
     .forecast-card:hover {
       transform: translateY(-5px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
+
     .footer {
       background-color: #1e3a8a;
       color: #f1f5f9;
       padding: 16px;
       border-radius: 8px;
     }
+
     .footer p {
       margin: 0;
       line-height: 1.6;
     }
+
     .map-container {
       width: 100%;
       height: 500px;
@@ -41,12 +48,31 @@
       overflow: hidden;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
+    
+    .warning-banner {
+      background: #b91c1c;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
+
 <body class="bg-gray-100 text-gray-800">
+
   <div class="container mx-auto p-4 md:p-6">
+
+    <!-- Header -->
     <div class="text-center mb-8">
-      <h1 class="text-3xl md:text-5xl header-title mb-4">New Features Coming Soon</h1>
+      <h1 class="text-3xl md:text-5xl header-title mb-4">ONWeather Chaser - Live Radar & Warnings</h1>
+    </div>
+
+    <!-- Weather Warnings -->
+    <div class="warning-banner" id="weatherWarning">
+      🚨 Severe weather warnings will appear here 🚨
     </div>
 
     <!-- Map Selection -->
@@ -59,7 +85,7 @@
       </select>
     </div>
 
-    <!-- Map Display -->
+    <!-- Live Radar -->
     <div class="map-container">
       <iframe id="mapFrame"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239212107!2d-79.3831860031769!3d43.65322576795192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d870602bf7%3A0x4c1f52bc4d263a92!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1644870899283!5m2!1sen!2sca"
@@ -72,10 +98,12 @@
       <p>&copy; 2025 ONWeatherChaser</p>
       <p>Version 1.0.0 | Powered by InsightDynamics</p>
     </footer>
+
   </div>
 
-  <!-- JavaScript for Map Selection -->
+  <!-- JavaScript for Map Selection and Warnings -->
   <script>
+    // Map selection functionality
     document.getElementById('mapType').addEventListener('change', function() {
       let mapFrame = document.getElementById('mapFrame');
       let selectedMap = this.value;
@@ -88,6 +116,16 @@
         mapFrame.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239212107!2d-79.3831860031769!3d43.65322576795192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d870602bf7%3A0x4c1f52bc4d263a92!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1644870899283!5m2!1sen!2sca&output=embed&maptype=satellite";
       }
     });
+
+    // Fetch and update weather warnings dynamically (placeholder example)
+    function updateWarnings() {
+      document.getElementById('weatherWarning').textContent = "⚠️ Blizzard Warning: Heavy snowfall expected. Travel may be hazardous. Stay safe! ⚠️";
+    }
+
+    // Simulate warning update after 3 seconds
+    setTimeout(updateWarnings, 3000);
   </script>
+
 </body>
+
 </html>
