@@ -1,165 +1,262 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>ONWeather Chaser</title>
-
+  <title>ONWeatherChaser</title>
   <script src="https://cdn.tailwindcss.com"></script>
-
   <style>
-
     body {
-
-      background: linear-gradient(to bottom right, #f0f4f8, #dce3e8);
-
+      background: linear-gradient(to bottom right, #f8fafc, #e2e8f0);
       font-family: 'Inter', sans-serif;
-
     }
-
-    .header-title {
-
-      background: linear-gradient(to right, #1e3a8a, #3b82f6);
-
-      -webkit-background-clip: text;
-
-      -webkit-text-fill-color: transparent;
-
-      font-weight: 900;
-
-    }
-
-    .forecast-card {
-
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-    }
-
-    .forecast-card:hover {
-
-      transform: translateY(-5px);
-
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-
-    }
-
-    .footer {
-
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
       background-color: #1e3a8a;
-
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    .nav a {
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #1e40af, #2563eb);
+      color: white;
+      border-radius: 12px;
+      margin-top: 60px;
+    }
+    .footer {
+      background-color: #1e3a8a;
       color: #f1f5f9;
-
-      padding: 16px;
-
+      padding: 20px;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      text-transform: uppercase;
+    }
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background-color: #1e3a8a;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f3f4f6;
+    }
+    tr:hover {
+      background-color: #e2e8f0;
+    }
+    .alert-box {
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 15px;
       border-radius: 8px;
-
+      text-align: center;
+      font-weight: bold;
     }
-
-    .footer p {
-
-      margin: 0;
-
-      line-height: 1.6;
-
+    .info-button {
+      margin-top: 20px;
+      padding: 10px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      width: 100%;
+      transition: background 0.2s;
     }
+    .info-button:hover {
+      background: #1d4ed8;
+    }
+    /* Modal Styles */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  width: 90%;
+  max-width: 220px; /* Smaller modal for mobile */
+  z-index: 1000;
+  text-align: center;
+}
+
+.modal h3 {
+  font-size: 12px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.modal p {
+  font-size: 11px;
+  margin: 3px 0;
+}
+
+.modal button {
+  margin-top: 8px;
+  padding: 6px;
+  font-size: 12px;
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background: #1d4ed8;
+}
+
+select {
+  width: 100%;
+  padding: 6px;
+  font-size: 11px;
+  margin-top: 4px;
+}
 
   </style>
-
 </head>
+<body class="bg-gray-100 text-gray-900">
 
-<body class="bg-gray-100 text-gray-800">
+  <!-- Navigation Bar -->
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="weather-maps.html">Live Map</a>
+  </nav>
 
-  <div class="container mx-auto p-4 md:p-6">
-
-    <div class="text-center mb-8">
-
-      <h1 class="text-3xl md:text-5xl header-title mb-4">New Features Coming Soon</h1>
-
-   <!--   <p class="text-base md:text-lg text-gray-700">Detailed snowfall projections and key information are below.</p> -->
-
-    </div>
-
-
-
-    <!-- Image Section
-
-    <div class="flex justify-center mb-8">
-
-      <img src="forecast_feb12.png" alt="Winter Storm Forecast Map" class="shadow-lg rounded-lg max-w-full md:max-w-3xl">
-
-    </div>
-
--->
-
-    <!-- Forecast Text Section 
-
-    <div class="forecast-card bg-white p-6 md:p-8 rounded-lg">
-
-      <h2 class="text-xl md:text-2xl font-semibold mb-4 text-blue-700">Storm Synopsis</h2>
-
-      <p class="mb-4">
-
-        A powerful winter storm is moving across Ontario, bringing snowfall ranging from 2 to 35+ cm. 
-
-        Areas north of Highway 407 will experience at least 15 cm with some locations reaching 25 cm. 
-
-        The heaviest totals are expected north of Highway 401, particularly in the Ottawa Valley, where some regions could exceed 35 cm. 
-
-        Precipitation type will depend on the storm's track, with potential mixing near the 401 corridor.
-
-      </p>
-
-      <p class="mb-4">
-
-        If the mixing line stays south, particularly near the Niagara, Hamilton, and Brantford areas, 
-
-        snowfall totals in the western GTHA could be significantly higher, with totals potentially exceeding 20 cm due to lake enhancement. 
-
-        However, if the mixing line pushes further north towards the 401 corridor, snowfall totals will be much lower, 
-
-        likely around 10-15 cm, with a greater chance for sleet and freezing rain instead of snow which could decrease totals even more.
-
-      </p>
-
-      <p class="mb-4">
-
-        Travel will be hazardous during the storm's peak, especially as conditions change along the 401 corridor. 
-
-        Prepare for reduced visibility and icy conditions. Plan accordingly and stay updated on the latest forecasts as the situation evolves.
-
-      </p>
-
-      <p class="mb-4">
-
-        Last Update: 11:08am February 12th, 2025
-
-      </p>
-
-      <p class="font-bold mt-4 text-blue-800">Questions? Reply to our tweet! We’re happy to help!</p>
-
-    </div>
-
--->
-
-    <!-- Footer Section -->
-
-    <footer class="footer mt-12 text-center text-sm">
-
-      <p>&copy; 2025 ONWeatherChaser</p>
-
-      <p>Version 1.0.0 | Powered by InsightDynamics</p>
-
-    </footer>
-
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1 class="text-3xl font-bold">ONWeather Chaser</h1>
   </div>
 
-</body>
+  <div class="container mx-auto p-6 md:p-10">
+    <div class="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-6 mb-12">
+      <h2 class="text-2xl font-semibold text-red-700 mb-4">ACTIVE WEATHER ALERTS</h2>
+      <div id="weather-alerts" class="mt-4 text-gray-700">
+        <p>Loading latest alerts...</p>
+      </div>
+      <button class="info-button" onclick="openModal()">MORE INFO</button>
+    </div>
+  </div>
 
+  <!-- Alert Modal -->
+  <div id="modal-overlay" class="modal-overlay" onclick="closeModal()"></div>
+  <div id="alert-modal" class="modal">
+    <h3>SELECT AFFECTED AREA</h3>
+    <select id="alert-select" onchange="updateDescription()"></select>
+    <p><strong>Description:</strong></p>
+    <p id="modal-description"></p>
+    <button onclick="closeModal()">CLOSE</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 ONWeather Chaser</p>
+    <p>Version 1.0.0</p>
+  </footer>
+
+  <script>
+  let alertsData = [];
+
+function fetchWeatherAlerts() {
+  fetch('JSON_ALERTS/active_alerts.json')
+    .then(response => response.json())
+    .then(data => {
+      alertsData = data.alerts || [];
+      const alertsContainer = document.getElementById('weather-alerts');
+
+      if (alertsData.length === 0) {
+        alertsContainer.innerHTML = '<div class="alert-box">No active alerts</div>';
+        return;
+      }
+
+      const uniqueAlerts = {};
+      alertsData.forEach(alert => {
+        const key = alert.headline + alert.affected_areas.map(area => area.area_description).join(",");
+        uniqueAlerts[key] = alert; 
+      });
+
+      const filteredAlerts = Object.values(uniqueAlerts);
+
+      let tableHTML = `<table><thead><tr><th>ALERT</th><th>AFFECTED AREAS</th></tr></thead><tbody>`;
+
+      filteredAlerts.forEach(alert => {
+        const uniqueAreas = [...new Set(alert.affected_areas.map(area => area.area_description))];
+
+        tableHTML += `<tr><td>${alert.headline}</td><td><ul>${uniqueAreas.map(area => `<li>${area}</li>`).join('')}</ul></td></tr>`;
+      });
+
+      tableHTML += `</tbody></table>`;
+      alertsContainer.innerHTML = tableHTML;
+    });
+}
+
+function openModal() {
+  const select = document.getElementById("alert-select");
+  select.innerHTML = "";
+
+  const uniqueAreas = new Map();
+  alertsData.forEach(alert => {
+    alert.affected_areas.forEach(area => {
+      if (!uniqueAreas.has(area.area_description)) {
+        uniqueAreas.set(area.area_description, alert.description.match(/What:[\s\S]*?When:[\s\S]*?Additional information:[\s\S]*?$/) || alert.description);
+      }
+    });
+  });
+
+  select.innerHTML = [...uniqueAreas.entries()].map(([area, description]) => `<option value="${description}">${area}</option>`).join('');
+  updateDescription();
+  document.getElementById("modal-overlay").style.display = "block";
+  document.getElementById("alert-modal").style.display = "block";
+}
+
+function updateDescription() {
+  document.getElementById("modal-description").innerText = document.getElementById("alert-select").value;
+}
+
+function closeModal() {
+  document.getElementById("alert-modal").style.display = "none";
+  document.getElementById("modal-overlay").style.display = "none";
+}
+
+fetchWeatherAlerts();
+  </script>
+
+</body>
 </html>
