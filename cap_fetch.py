@@ -5,8 +5,8 @@ import xml.etree.ElementTree as ET
 import json
 
 # Base CAP alerts directory
-BASE_CAP_URL = os.getenv("BASE_CAP_URL")
-REGION = os.getenv("REGION")
+BASE_CAP_URL = "https://dd.weather.gc.ca/alerts/cap/"
+REGION = "CWTO"
 
 # Define paths for saving files
 CAP_SAVE_PATH = "cap_alerts/"
