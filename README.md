@@ -1,0 +1,1 @@
+[![Fetch CAP Alerts](https://github.com/InsightDynamics/onweatherchaser/actions/workflows/FETCH_CAP_ALERTS.yml/badge.svg)](https://github.com/InsightDynamics/onweatherchaser/actions/workflows/FETCH_CAP_ALERTS.yml)
