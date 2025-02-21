@@ -26,15 +26,23 @@ jobs:
       - name: Install Dependencies
         run: pip install requests beautifulsoup4 lxml
 
-      - name: Ensure JSON_ALERTS Directory Exists
-        run: mkdir -p JSON_ALERTS
+      - name: Ensure Required Directories Exist
+        run: |
+          mkdir -p JSON_ALERTS
+          mkdir -p cap_alerts
+          echo "✅ Required directories ensured."
 
       - name: Run CAP Alert Fetcher
         run: python cap_fetch.py
 
+      - name: List JSON_ALERTS Directory
+        run: |
+          echo "📂 Listing JSON_ALERTS directory contents:"
+          ls -l JSON_ALERTS/
+
       - name: Check for Changes
         run: |
-          git add JSON_ALERTS/*.json
+          git add JSON_ALERTS/*.json 2>/dev/null || true
           if git diff --quiet && git diff --staged --quiet; then
             echo "✅ No changes detected. Exiting gracefully."
             exit 0  # Exit successfully without failing workflow
