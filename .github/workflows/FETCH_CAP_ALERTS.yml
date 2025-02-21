@@ -33,7 +33,7 @@ jobs:
         env:
           BASE_CAP_URL: ${{ secrets.BASE_CAP_URL }}
           REGION: ${{ secrets.REGION }}
-        run: python get_fetch.py  # Ensure script name is correct
+        run: python cap_fetch.py  # Ensure script name is correct
 
       - name: Check for Changes
         run: |
