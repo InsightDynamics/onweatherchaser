@@ -27,22 +27,29 @@ jobs:
         run: pip install requests beautifulsoup4 lxml
 
       - name: Ensure JSON_ALERTS Directory Exists
-        run: mkdir -p JSON_ALERTS
+        run: mkdir -p JSON_ALERTS  # This creates the directory if it doesn't exist
 
       - name: Run CAP Alert Fetcher
-        env:
-          BASE_CAP_URL: ${{ secrets.BASE_CAP_URL }}
-          REGION: ${{ secrets.REGION }}
-        run: python cap_fetch.py  # Ensure script name is correct
+        run: python cap_fetch.py
+
+      - name: List JSON_ALERTS Directory
+        run: |
+          echo "Listing JSON_ALERTS directory contents:"
+          ls -l JSON_ALERTS/
 
       - name: Check for Changes
         run: |
-          git add JSON_ALERTS/*.json
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "✅ No changes detected. Exiting gracefully."
+          if [ -z "$(ls -A JSON_ALERTS/*.json 2>/dev/null)" ]; then
+            echo "✅ No new JSON files found. Exiting gracefully."
             exit 0  # Exit successfully without failing workflow
           else
-            echo "🚨 Changes detected, proceeding with commit."
+            git add JSON_ALERTS/*.json
+            if git diff --quiet && git diff --staged --quiet; then
+              echo "✅ No changes detected. Exiting gracefully."
+              exit 0  # Exit successfully without failing workflow
+            else
+              echo "🚨 Changes detected, proceeding with commit."
+            fi
           fi
 
       - name: Commit & Push if Changes Found
