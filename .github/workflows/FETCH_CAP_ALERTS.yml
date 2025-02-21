@@ -26,33 +26,36 @@ jobs:
       - name: Install Dependencies
         run: pip install requests beautifulsoup4 lxml
 
-      - name: Validate BASE_CAP_URL and REGION
+      - name: Ensure JSON_ALERTS Directory Exists
+        run: mkdir -p JSON_ALERTS  # This creates the directory if it doesn't exist
+
+      - name: Validate Environment Variables
         run: |
           echo "Validating environment variables..."
-
+          
           if [ -z "$BASE_CAP_URL" ]; then
             echo "❌ BASE_CAP_URL is not set or is empty. Exiting workflow."
             exit 1
           fi
-
+          
           if [ -z "$REGION" ]; then
             echo "❌ REGION is not set or is empty. Exiting workflow."
             exit 1
           fi
-
+          
           # Optional: Validate that BASE_CAP_URL has the correct format
           if [[ ! "$BASE_CAP_URL" =~ ^https?:// ]]; then
             echo "❌ BASE_CAP_URL is not a valid URL. Exiting workflow."
             exit 1
           fi
-
+          
           echo "✅ Validation passed for BASE_CAP_URL and REGION."
-
-      - name: Ensure JSON_ALERTS Directory Exists
-        run: mkdir -p JSON_ALERTS  # This creates the directory if it doesn't exist
 
       - name: Run CAP Alert Fetcher
         run: python cap_fetch.py
+        env:
+          BASE_CAP_URL: ${{ secrets.BASE_CAP_URL }}
+          REGION: ${{ secrets.REGION }}
 
       - name: List JSON_ALERTS Directory
         run: |
