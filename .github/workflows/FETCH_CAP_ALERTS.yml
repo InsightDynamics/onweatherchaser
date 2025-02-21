@@ -2,8 +2,8 @@ name: Fetch CAP Alerts
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Runs every 15 minutes
-  workflow_dispatch: # Allows manual triggering
+    - cron: '*/15 * * * *'  # Runs every 15 minutes
+  workflow_dispatch:  # Allows manual triggering
 
 permissions:
   contents: write
@@ -30,7 +30,10 @@ jobs:
         run: mkdir -p JSON_ALERTS
 
       - name: Run CAP Alert Fetcher
-        run: python cap_fetch.py
+        env:
+          BASE_CAP_URL: ${{ secrets.BASE_CAP_URL }}
+          REGION: ${{ secrets.REGION }}
+        run: python get_fetch.py  # Ensure script name is correct
 
       - name: Check for Changes
         run: |
