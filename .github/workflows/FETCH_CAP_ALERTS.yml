@@ -1,0 +1,57 @@
+name: Fetch CAP Alerts
+
+on:
+  schedule:
+    - cron: '*/15 * * * *' # Runs every 15 minutes
+  workflow_dispatch: # Allows manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-alerts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Ensure full history is fetched
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Ensure JSON_ALERTS Directory Exists
+        run: mkdir -p JSON_ALERTS
+
+      - name: Run CAP Alert Fetcher
+        run: python cap_fetch.py
+
+      - name: Check for Changes
+        run: |
+          git add JSON_ALERTS/*.json
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "✅ No changes detected. Exiting gracefully."
+            exit 0  # Exit successfully without failing workflow
+          else
+            echo "🚨 Changes detected, proceeding with commit."
+          fi
+
+      - name: Commit & Push if Changes Found
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "✅ No changes to commit."
+          else
+            git commit -m "🚨 Update CAP alerts [$(date)]"
+            git push origin HEAD:main
+          fi
+
+      - name: Debug Git Status
+        run: git status
