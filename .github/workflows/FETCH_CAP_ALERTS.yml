@@ -30,6 +30,9 @@ jobs:
         run: mkdir -p JSON_ALERTS  # This creates the directory if it doesn't exist
 
       - name: Run CAP Alert Fetcher
+        env:
+          BASE_CAP_URL: ${{ secrets.BASE_CAP_URL }}  # Pass the secret as an environment variable
+          REGION: ${{ secrets.REGION }}  # Pass the region as an environment variable
         run: python cap_fetch.py
 
       - name: List JSON_ALERTS Directory
