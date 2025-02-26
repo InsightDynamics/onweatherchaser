@@ -1,0 +1,186 @@
+/* General Styling */
+body {
+  background: linear-gradient(to bottom right, #f8fafc, #e2e8f0);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #1e3a8a;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #1e40af, #2563eb);
+  color: white;
+  border-radius: 12px;
+  margin-top: 60px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1e3a8a;
+  color: #f1f5f9;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+th, td {
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+tr:hover {
+  background-color: #e2e8f0;
+}
+
+/* Alert Box */
+.alert-box {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Buttons */
+.info-button, .modal button, .control-panel button {
+  margin-top: 8px;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.info-button:hover, .modal button:hover, .control-panel button:hover {
+  background: #1d4ed8;
+}
+
+/* Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  width: 90%;
+  max-width: 220px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.modal h3 {
+  font-size: 12px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.modal p {
+  font-size: 11px;
+  margin: 3px 0;
+}
+
+/* Map Container */
+.map-container {
+  flex-grow: 1;
+  width: 100%;
+}
+
+/* Control Panel */
+.control-panel {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(30, 58, 138, 0.9);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 12px;
+  z-index: 1000;
+  width: 220px;
+}
+
+/* Checkbox Group */
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.checkbox-group input {
+  margin-right: 5px;
+  transform: scale(1.1);
+}
