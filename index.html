@@ -214,15 +214,15 @@ function fetchWeatherAlerts() {
 
       const filteredAlerts = Object.values(uniqueAlerts);
 
-      let tableHTML = <table><thead><tr><th>ALERT</th><th>AFFECTED AREAS</th></tr></thead><tbody>;
+      let tableHTML = `<table><thead><tr><th>ALERT</th><th>AFFECTED AREAS</th></tr></thead><tbody>`;
 
       filteredAlerts.forEach(alert => {
         const uniqueAreas = [...new Set(alert.affected_areas.map(area => area.area_description))];
 
-        tableHTML += <tr><td>${alert.headline}</td><td><ul>${uniqueAreas.map(area => <li>${area}</li>).join('')}</ul></td></tr>;
+        tableHTML += `<tr><td>${alert.headline}</td><td><ul>${uniqueAreas.map(area => `<li>${area}</li>`).join('')}</ul></td></tr>`;
       });
 
-      tableHTML += </tbody></table>;
+      tableHTML += `</tbody></table>`;
       alertsContainer.innerHTML = tableHTML;
     });
 }
@@ -240,7 +240,7 @@ function openModal() {
     });
   });
 
-  select.innerHTML = [...uniqueAreas.entries()].map(([area, description]) => <option value="${description}">${area}</option>).join('');
+  select.innerHTML = [...uniqueAreas.entries()].map(([area, description]) => `<option value="${description}">${area}</option>`).join('');
   updateDescription();
   document.getElementById("modal-overlay").style.display = "block";
   document.getElementById("alert-modal").style.display = "block";
