@@ -4,22 +4,126 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Live Weather Map - ONWeather Chaser</title>
-  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <style>
+    /* General Styling */
+    body {
+      background: #f8fafc;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+    
+    /* Navigation */
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background-color: #1e3a8a;
+      width: 100%;
+      z-index: 1000;
+    }
+    .nav a {
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    /* Full-Screen Map */
+    .map-container {
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    /* Control Panel */
+    .control-panel {
+      position: fixed;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(30, 58, 138, 0.9);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      font-size: 12px;
+      z-index: 1000;
+      width: 220px;
+    }
+
+    /* Label Styling */
+    .control-panel label {
+      font-size: 13px;
+      font-weight: bold;
+      display: block;
+      margin-top: 5px;
+    }
+
+    /* Sliders */
+    input[type="range"] {
+      width: 100%;
+      margin-top: 3px;
+    }
+
+    /* Buttons */
+    .control-panel button {
+      margin-top: 8px;
+      padding: 6px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      width: 100%;
+      transition: background 0.2s;
+    }
+
+    .control-panel button:hover {
+      background: #1d4ed8;
+    }
+
+    /* Checkbox Styling */
+    .checkbox-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+    }
+
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .checkbox-group input {
+      margin-right: 5px;
+      transform: scale(1.1);
+    }
+  </style>
 </head>
 <body>
 
   <!-- Navigation Bar -->
   <nav class="nav">
     <a href="index.html">Home</a>
+    <!--<a href="lake-effect.html">Lake-Effect Snow</a>-->
     <a href="weather-maps.html">Live Weather Maps</a>
+    <!--<a href="https://x.com/ONWeatherChaser" target="_blank">Twitter</a>-->
   </nav>
 
   <!-- Full-Screen Map -->
   <div id="weather-map" class="map-container"></div>
 
-  <!-- Control Panel -->
+  <!-- Smaller, Overlayed Control Panel -->
   <div class="control-panel">
     <label>Layers:</label>
     <div class="checkbox-group">
