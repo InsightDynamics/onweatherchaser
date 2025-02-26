@@ -35,6 +35,9 @@ jobs:
       - name: Run CAP Alert Fetcher
         run: python cap_fetch.py
 
+      - name: Run CAP Cleaner
+        run: python cap_clean.py
+
       - name: List JSON_ALERTS Directory
         run: |
           echo "📂 Listing JSON_ALERTS directory contents:"
