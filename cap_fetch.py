@@ -94,14 +94,25 @@ def parse_cap_to_json(cap_file_path):
 def remove_ended_alerts(active_alerts):
     ended_areas = set()
 
+    # Identify areas where alerts have ended
     for alert in active_alerts:
         if "ENDED" in alert["headline"].upper():
-            ended_areas.update(alert["affected_areas"])
+            for area in alert["affected_areas"]:
+                if isinstance(area, dict) and "area_description" in area:
+                    ended_areas.add(area["area_description"])
+                elif isinstance(area, str):
+                    ended_areas.add(area)  # Handle cases where areas are already strings
 
-    return [
-        alert for alert in active_alerts
-        if not ("IN EFFECT" in alert["headline"].upper() and any(area in ended_areas for area in alert["affected_areas"]))
-    ]
+    # Remove active alerts for the same areas
+    filtered_alerts = []
+    for alert in active_alerts:
+        if "IN EFFECT" in alert["headline"].upper():
+            if any(area in ended_areas for area in alert["affected_areas"]):
+                continue  # Skip this alert (remove it)
+        filtered_alerts.append(alert)
+
+    return filtered_alerts
+
 
 # Step 7: Process CAP files and update active alerts
 def convert_to_json(cap_files):
