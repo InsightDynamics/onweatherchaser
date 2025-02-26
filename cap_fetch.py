@@ -75,65 +75,79 @@ def parse_cap_to_json(cap_file_path):
     root = tree.getroot()
     namespace = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
 
+    # Select English version if available
     info_blocks = root.findall("cap:info", namespace)
     selected_info = next((info for info in info_blocks if info.find("cap:language", namespace) is not None and "en" in info.find("cap:language", namespace).text), info_blocks[0] if info_blocks else None)
 
     if selected_info is None:
         return {}
 
+    # Extract key details
     alert_info = {
+        "identifier": root.find("cap:identifier", namespace).text if root.find("cap:identifier", namespace) is not None else "N/A",
+        "sender": root.find("cap:sender", namespace).text if root.find("cap:sender", namespace) is not None else "N/A",
+        "sent": root.find("cap:sent", namespace).text if root.find("cap:sent", namespace) is not None else "N/A",
+        "status": root.find("cap:status", namespace).text if root.find("cap:status", namespace) is not None else "N/A",
+        "msgType": root.find("cap:msgType", namespace).text if root.find("cap:msgType", namespace) is not None else "N/A",
+        "scope": root.find("cap:scope", namespace).text if root.find("cap:scope", namespace) is not None else "N/A",
+        "references": root.find("cap:references", namespace).text if root.find("cap:references", namespace) is not None else "N/A",
         "headline": selected_info.find("cap:headline", namespace).text if selected_info.find("cap:headline", namespace) is not None else "N/A",
-        "affected_areas": [
-            area.find("cap:areaDesc", namespace).text if area.find("cap:areaDesc", namespace) is not None else "N/A"
-            for area in selected_info.findall("cap:area", namespace)
-        ]
+        "event": selected_info.find("cap:event", namespace).text if selected_info.find("cap:event", namespace) is not None else "N/A",
+        "urgency": selected_info.find("cap:urgency", namespace).text if selected_info.find("cap:urgency", namespace) is not None else "N/A",
+        "severity": selected_info.find("cap:severity", namespace).text if selected_info.find("cap:severity", namespace) is not None else "N/A",
+        "certainty": selected_info.find("cap:certainty", namespace).text if selected_info.find("cap:certainty", namespace) is not None else "N/A",
+        "effective": selected_info.find("cap:effective", namespace).text if selected_info.find("cap:effective", namespace) is not None else "N/A",
+        "expires": selected_info.find("cap:expires", namespace).text if selected_info.find("cap:expires", namespace) is not None else "N/A",
+        "description": selected_info.find("cap:description", namespace).text if selected_info.find("cap:description", namespace) is not None else "N/A",
+        "instruction": selected_info.find("cap:instruction", namespace).text if selected_info.find("cap:instruction", namespace) is not None else "N/A",
+        "affected_areas": []
     }
+
+    # Extract affected areas & polygons
+    for area in selected_info.findall("cap:area", namespace):
+        area_data = {
+            "area_description": area.find("cap:areaDesc", namespace).text if area.find("cap:areaDesc", namespace) is not None else "N/A",
+            "polygon": []
+        }
+
+        polygon_elem = area.find("cap:polygon", namespace)
+        if polygon_elem is not None:
+            coordinates = polygon_elem.text.strip().split(" ")
+            area_data["polygon"] = [{"lat": float(coord.split(",")[0]), "lon": float(coord.split(",")[1])} for coord in coordinates]
+
+        alert_info["affected_areas"].append(area_data)
+
     return alert_info
 
-# Step 6: Remove ended alerts
-def remove_ended_alerts(active_alerts):
-    ended_areas = set()
-
-    # Identify areas where alerts have ended
-    for alert in active_alerts:
-        if "ENDED" in alert["headline"].upper():
-            for area in alert["affected_areas"]:
-                if isinstance(area, dict) and "area_description" in area:
-                    ended_areas.add(area["area_description"])
-                elif isinstance(area, str):
-                    ended_areas.add(area)  # Handle cases where areas are already strings
-
-    # Remove active alerts for the same areas
-    filtered_alerts = []
-    for alert in active_alerts:
-        if "IN EFFECT" in alert["headline"].upper():
-            if any(area in ended_areas for area in alert["affected_areas"]):
-                continue  # Skip this alert (remove it)
-        filtered_alerts.append(alert)
-
-    return filtered_alerts
-
-
-# Step 7: Process CAP files and update active alerts
+# Step 6: Process each CAP file and save as JSON
 def convert_to_json(cap_files):
     active_alerts = []
+    
     for cap_file in cap_files:
         alert_data = parse_cap_to_json(cap_file)
-        if alert_data:
-            active_alerts.append(alert_data)
+        if not alert_data:
+            continue
 
-    try:
-        with open(ACTIVE_ALERTS_FILE, "r", encoding="utf-8") as file:
-            stored_alerts = json.load(file).get("alerts", [])
-    except (FileNotFoundError, json.JSONDecodeError):
-        stored_alerts = []
+        json_filename = os.path.basename(cap_file).replace(".cap", ".json")
+        json_file_path = os.path.join(JSON_SAVE_PATH, json_filename)
 
-    updated_alerts = remove_ended_alerts(stored_alerts + active_alerts)
+        with open(json_file_path, "w", encoding="utf-8") as json_file:
+            json.dump(alert_data, json_file, indent=4, ensure_ascii=False)
 
-    with open(ACTIVE_ALERTS_FILE, "w", encoding="utf-8") as file:
-        json.dump({"alerts": updated_alerts}, file, indent=4, ensure_ascii=False)
+        active_alerts.append(alert_data)
 
-    print(f"✅ Active alerts updated. {len(updated_alerts)} remaining.")
+    # Overwrite active_alerts.json with all current alerts
+    with open(ACTIVE_ALERTS_FILE, "w", encoding="utf-8") as json_file:
+        json.dump({"alerts": active_alerts}, json_file, indent=4, ensure_ascii=False)
+
+    return active_alerts
+
+# Step 7: Cleanup expired alerts
+def cleanup_folders():
+    for folder in [CAP_SAVE_PATH, JSON_SAVE_PATH]:
+        for file in os.listdir(folder):
+            file_path = os.path.join(folder, file)
+            os.remove(file_path)
 
 # Step 8: Run the process
 latest_date = get_latest_cap_date()
@@ -144,4 +158,8 @@ if latest_date:
         if cap_files:
             downloaded_files = download_cap_files(cap_files)
             if downloaded_files:
-                convert_to_json(downloaded_files)
+                active_alerts = convert_to_json(downloaded_files)
+                if not active_alerts:
+                    cleanup_folders()
+                else:
+                    print(f"✅ {len(active_alerts)} active alerts saved.")
