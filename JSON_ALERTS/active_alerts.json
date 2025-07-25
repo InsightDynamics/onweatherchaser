@@ -14784,6 +14784,1886 @@
                     ]
                 }
             ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.1540217268.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-07-25T21:58:41-00:00",
+            "status": "Actual",
+            "msgType": "Alert",
+            "scope": "Public",
+            "references": null,
+            "headline": "special air quality statement in effect",
+            "event": "air quality",
+            "urgency": "Future",
+            "severity": "Moderate",
+            "certainty": "Possible",
+            "effective": "2025-07-25T21:58:41-00:00",
+            "expires": "2025-07-26T13:58:41-00:00",
+            "description": "\nSmoke is causing or expected to cause poor air quality and reduced visibility.\n\n###\n\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\n\nYou may experience mild and common symptoms such as eye, nose and throat irritation, headaches or a mild cough. More serious but less common symptoms include wheezing, chest pains or severe cough. If you think you are having a medical emergency, seek immediate medical assistance.\n\nPeople more likely to be impacted by outdoor air pollution, including people aged 65 and older, pregnant people, infants and young children, people with an existing illness or chronic health condition, and people who work outdoors, should reduce or reschedule strenuous activities outdoors and seek medical attention if experiencing symptoms.\n\nVisit http://www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.\n",
+            "instruction": "\nWhen indoors, keep windows and doors closed as much as possible. When there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\n\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\n\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\n\nCheck in on others who are in your care or live nearby who may be more likely to be impacted by outdoor air pollution.\n\nAlways follow guidance from local authorities.\n\nLearn more at https://www.canada.ca/wildfire-smoke.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Attawapiskat",
+                    "polygon": [
+                        {
+                            "lat": 54.0006,
+                            "lon": -82.2369
+                        },
+                        {
+                            "lat": 54.0004,
+                            "lon": -82.2294
+                        },
+                        {
+                            "lat": 53.9804,
+                            "lon": -81.9568
+                        },
+                        {
+                            "lat": 53.3416,
+                            "lon": -81.9632
+                        },
+                        {
+                            "lat": 53.0256,
+                            "lon": -82.2216
+                        },
+                        {
+                            "lat": 52.4881,
+                            "lon": -81.4236
+                        },
+                        {
+                            "lat": 52.4649,
+                            "lon": -81.6114
+                        },
+                        {
+                            "lat": 51.9291,
+                            "lon": -82.9115
+                        },
+                        {
+                            "lat": 52.2453,
+                            "lon": -83.0302
+                        },
+                        {
+                            "lat": 54.0287,
+                            "lon": -83.7002
+                        },
+                        {
+                            "lat": 54.0006,
+                            "lon": -82.2369
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Fort Albany",
+                    "polygon": [
+                        {
+                            "lat": 51.3164,
+                            "lon": -82.1507
+                        },
+                        {
+                            "lat": 51.3124,
+                            "lon": -82.1596
+                        },
+                        {
+                            "lat": 51.8669,
+                            "lon": -82.8343
+                        },
+                        {
+                            "lat": 51.9291,
+                            "lon": -82.9115
+                        },
+                        {
+                            "lat": 52.4649,
+                            "lon": -81.6114
+                        },
+                        {
+                            "lat": 52.4881,
+                            "lon": -81.4236
+                        },
+                        {
+                            "lat": 51.9724,
+                            "lon": -80.6927
+                        },
+                        {
+                            "lat": 51.8769,
+                            "lon": -80.8373
+                        },
+                        {
+                            "lat": 51.8738,
+                            "lon": -80.8407
+                        },
+                        {
+                            "lat": 51.3164,
+                            "lon": -82.1507
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Moosonee",
+                    "polygon": [
+                        {
+                            "lat": 51.8738,
+                            "lon": -80.8407
+                        },
+                        {
+                            "lat": 51.8769,
+                            "lon": -80.8373
+                        },
+                        {
+                            "lat": 51.9724,
+                            "lon": -80.6927
+                        },
+                        {
+                            "lat": 51.6003,
+                            "lon": -80.3594
+                        },
+                        {
+                            "lat": 51.3971,
+                            "lon": -80.2894
+                        },
+                        {
+                            "lat": 51.3571,
+                            "lon": -80.0462
+                        },
+                        {
+                            "lat": 51.2605,
+                            "lon": -79.8263
+                        },
+                        {
+                            "lat": 51.4271,
+                            "lon": -79.8297
+                        },
+                        {
+                            "lat": 51.5496,
+                            "lon": -79.5979
+                        },
+                        {
+                            "lat": 51.4684,
+                            "lon": -79.5164
+                        },
+                        {
+                            "lat": 51.0628,
+                            "lon": -79.496
+                        },
+                        {
+                            "lat": 50.7219,
+                            "lon": -79.5166
+                        },
+                        {
+                            "lat": 50.7218,
+                            "lon": -81.4395
+                        },
+                        {
+                            "lat": 51.3124,
+                            "lon": -82.1596
+                        },
+                        {
+                            "lat": 51.3164,
+                            "lon": -82.1507
+                        },
+                        {
+                            "lat": 51.8738,
+                            "lon": -80.8407
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.3186204764.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-07-25T22:00:19-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.1540217268.2025,2025-07-25T21:58:41-00:00",
+            "headline": "special air quality statement in effect",
+            "event": "air quality",
+            "urgency": "Future",
+            "severity": "Moderate",
+            "certainty": "Possible",
+            "effective": "2025-07-25T21:58:41-00:00",
+            "expires": "2025-07-26T13:58:41-00:00",
+            "description": "\nSmoke is causing or expected to cause poor air quality and reduced visibility.\n\nAir quality is expected to deteriorate this evening as smoke from wildfires in the Prairies moves into the area. Conditions are expected to improve Saturday morning.\n\nAir quality and visibility due to wildfire smoke can fluctuate over short distances and can vary considerably from hour to hour.\n\n###\n\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\n\nYou may experience mild and common symptoms such as eye, nose and throat irritation, headaches or a mild cough. More serious but less common symptoms include wheezing, chest pains or severe cough. If you think you are having a medical emergency, seek immediate medical assistance.\n\nPeople more likely to be impacted by outdoor air pollution, including people aged 65 and older, pregnant people, infants and young children, people with an existing illness or chronic health condition, and people who work outdoors, should reduce or reschedule strenuous activities outdoors and seek medical attention if experiencing symptoms.\n\nVisit http://www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.\n",
+            "instruction": "\nWhen indoors, keep windows and doors closed as much as possible. When there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\n\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\n\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\n\nCheck in on others who are in your care or live nearby who may be more likely to be impacted by outdoor air pollution.\n\nAlways follow guidance from local authorities.\n\nLearn more at https://www.canada.ca/wildfire-smoke.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Attawapiskat",
+                    "polygon": [
+                        {
+                            "lat": 54.0006,
+                            "lon": -82.2369
+                        },
+                        {
+                            "lat": 54.0004,
+                            "lon": -82.2294
+                        },
+                        {
+                            "lat": 53.9804,
+                            "lon": -81.9568
+                        },
+                        {
+                            "lat": 53.3416,
+                            "lon": -81.9632
+                        },
+                        {
+                            "lat": 53.0256,
+                            "lon": -82.2216
+                        },
+                        {
+                            "lat": 52.4881,
+                            "lon": -81.4236
+                        },
+                        {
+                            "lat": 52.4649,
+                            "lon": -81.6114
+                        },
+                        {
+                            "lat": 51.9291,
+                            "lon": -82.9115
+                        },
+                        {
+                            "lat": 52.2453,
+                            "lon": -83.0302
+                        },
+                        {
+                            "lat": 54.0287,
+                            "lon": -83.7002
+                        },
+                        {
+                            "lat": 54.0006,
+                            "lon": -82.2369
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Fort Albany",
+                    "polygon": [
+                        {
+                            "lat": 51.3164,
+                            "lon": -82.1507
+                        },
+                        {
+                            "lat": 51.3124,
+                            "lon": -82.1596
+                        },
+                        {
+                            "lat": 51.8669,
+                            "lon": -82.8343
+                        },
+                        {
+                            "lat": 51.9291,
+                            "lon": -82.9115
+                        },
+                        {
+                            "lat": 52.4649,
+                            "lon": -81.6114
+                        },
+                        {
+                            "lat": 52.4881,
+                            "lon": -81.4236
+                        },
+                        {
+                            "lat": 51.9724,
+                            "lon": -80.6927
+                        },
+                        {
+                            "lat": 51.8769,
+                            "lon": -80.8373
+                        },
+                        {
+                            "lat": 51.8738,
+                            "lon": -80.8407
+                        },
+                        {
+                            "lat": 51.3164,
+                            "lon": -82.1507
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Moosonee",
+                    "polygon": [
+                        {
+                            "lat": 51.8738,
+                            "lon": -80.8407
+                        },
+                        {
+                            "lat": 51.8769,
+                            "lon": -80.8373
+                        },
+                        {
+                            "lat": 51.9724,
+                            "lon": -80.6927
+                        },
+                        {
+                            "lat": 51.6003,
+                            "lon": -80.3594
+                        },
+                        {
+                            "lat": 51.3971,
+                            "lon": -80.2894
+                        },
+                        {
+                            "lat": 51.3571,
+                            "lon": -80.0462
+                        },
+                        {
+                            "lat": 51.2605,
+                            "lon": -79.8263
+                        },
+                        {
+                            "lat": 51.4271,
+                            "lon": -79.8297
+                        },
+                        {
+                            "lat": 51.5496,
+                            "lon": -79.5979
+                        },
+                        {
+                            "lat": 51.4684,
+                            "lon": -79.5164
+                        },
+                        {
+                            "lat": 51.0628,
+                            "lon": -79.496
+                        },
+                        {
+                            "lat": 50.7219,
+                            "lon": -79.5166
+                        },
+                        {
+                            "lat": 50.7218,
+                            "lon": -81.4395
+                        },
+                        {
+                            "lat": 51.3124,
+                            "lon": -82.1596
+                        },
+                        {
+                            "lat": 51.3164,
+                            "lon": -82.1507
+                        },
+                        {
+                            "lat": 51.8738,
+                            "lon": -80.8407
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.0855095071.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-07-25T22:02:55-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.2557350572.2025,2025-07-25T13:37:29-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1100037062.2025,2025-07-25T13:40:52-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2764537544.2025,2025-07-25T19:24:37-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1059047002.2025,2025-07-25T19:28:40-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1961762594.2025,2025-07-25T22:01:11-00:00",
+            "headline": "air quality warning in effect",
+            "event": "air quality",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "effective": "2025-07-25T22:01:11-00:00",
+            "expires": "2025-07-26T14:01:11-00:00",
+            "description": "\nAir quality has improved for some locations. However, dense smoke is expected to return on Saturday and may persist through the weekend. \n\nAir quality and visibility due to wildfire smoke can fluctuate over short distances and can vary considerably from hour to hour.  \n\nPeople more likely to be impacted by wildfire smoke, including people aged 65 and older, pregnant people, infants and young children, people with an existing illness or chronic health condition, and people who work outdoors, should avoid strenuous activities outdoors and seek medical attention if experiencing symptoms.\n\n###\n\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\n\nYou may experience mild and common symptoms such as eye, nose and throat irritation, headaches or a mild cough. More serious but less common symptoms include wheezing, chest pains or severe cough. If you think you are having a medical emergency, seek immediate medical assistance.\n\nFor further information visit the website https://www.airqualityontario.com/ or contact the Ontario Ministry of the Environment, Conservation and Parks at 416-314-6666.\n\nVisit http://www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.\n",
+            "instruction": "\nWhen indoors, keep windows and doors closed as much as possible. When there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\n\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\n\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\n\nCheck in on others who are in your care or live nearby who may be more likely to be impacted by outdoor air pollution.\n\nAlways follow guidance from local authorities.\n\nLearn more at https://www.canada.ca/wildfire-smoke.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Sachigo Lake - Bearskin Lake",
+                    "polygon": [
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 53.7297,
+                            "lon": -92.0252
+                        },
+                        {
+                            "lat": 53.9089,
+                            "lon": -93.4241
+                        },
+                        {
+                            "lat": 54.5171,
+                            "lon": -92.6285
+                        },
+                        {
+                            "lat": 55.1549,
+                            "lon": -91.653
+                        },
+                        {
+                            "lat": 55.5552,
+                            "lon": -91.0742
+                        },
+                        {
+                            "lat": 55.9307,
+                            "lon": -90.4723
+                        },
+                        {
+                            "lat": 55.7283,
+                            "lon": -89.6616
+                        },
+                        {
+                            "lat": 55.4984,
+                            "lon": -88.8527
+                        },
+                        {
+                            "lat": 54.5866,
+                            "lon": -89.6215
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Big Trout Lake - Kasabonika",
+                    "polygon": [
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        },
+                        {
+                            "lat": 53.3863,
+                            "lon": -89.3769
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 54.5994,
+                            "lon": -89.6775
+                        },
+                        {
+                            "lat": 55.4984,
+                            "lon": -88.8527
+                        },
+                        {
+                            "lat": 55.2628,
+                            "lon": -87.921
+                        },
+                        {
+                            "lat": 55.0075,
+                            "lon": -87.0122
+                        },
+                        {
+                            "lat": 54.1558,
+                            "lon": -87.4504
+                        },
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Sandy Lake - Weagamow Lake - Deer Lake",
+                    "polygon": [
+                        {
+                            "lat": 52.4841,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.6707,
+                            "lon": -95.1632
+                        },
+                        {
+                            "lat": 52.8415,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.8419,
+                            "lon": -95.153
+                        },
+                        {
+                            "lat": 53.2523,
+                            "lon": -94.5197
+                        },
+                        {
+                            "lat": 53.5766,
+                            "lon": -93.9327
+                        },
+                        {
+                            "lat": 53.7427,
+                            "lon": -93.68
+                        },
+                        {
+                            "lat": 53.9089,
+                            "lon": -93.4241
+                        },
+                        {
+                            "lat": 53.7604,
+                            "lon": -92.0407
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 52.9541,
+                            "lon": -90.9516
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 52.3546,
+                            "lon": -93.4886
+                        },
+                        {
+                            "lat": 52.4841,
+                            "lon": -95.1536
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Pikangikum - Poplar Hill - MacDowell",
+                    "polygon": [
+                        {
+                            "lat": 51.6128,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.0344,
+                            "lon": -95.169
+                        },
+                        {
+                            "lat": 52.4201,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.4841,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.4148,
+                            "lon": -93.4852
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 51.1193,
+                            "lon": -92.3388
+                        },
+                        {
+                            "lat": 51.3669,
+                            "lon": -93.4873
+                        },
+                        {
+                            "lat": 51.4154,
+                            "lon": -93.733
+                        },
+                        {
+                            "lat": 51.4733,
+                            "lon": -93.9542
+                        },
+                        {
+                            "lat": 51.5309,
+                            "lon": -94.5283
+                        },
+                        {
+                            "lat": 51.6128,
+                            "lon": -95.1536
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Summer Beaver - Wunnummin Lake - Kingfisher Lake",
+                    "polygon": [
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        },
+                        {
+                            "lat": 52.7534,
+                            "lon": -87.9569
+                        },
+                        {
+                            "lat": 52.2453,
+                            "lon": -87.9904
+                        },
+                        {
+                            "lat": 52.237,
+                            "lon": -89.76
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 52.9445,
+                            "lon": -91.0141
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 53.4188,
+                            "lon": -89.3718
+                        },
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Pickle Lake - Cat Lake",
+                    "polygon": [
+                        {
+                            "lat": 52.2453,
+                            "lon": -87.9904
+                        },
+                        {
+                            "lat": 51.1568,
+                            "lon": -87.9963
+                        },
+                        {
+                            "lat": 51.1354,
+                            "lon": -89.9953
+                        },
+                        {
+                            "lat": 51.1282,
+                            "lon": -91.0434
+                        },
+                        {
+                            "lat": 51.1193,
+                            "lon": -92.3388
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 52.2797,
+                            "lon": -89.8479
+                        },
+                        {
+                            "lat": 52.2453,
+                            "lon": -87.9904
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.1961762594.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-07-25T22:01:11-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.2557350572.2025,2025-07-25T13:37:29-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1100037062.2025,2025-07-25T13:40:52-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2764537544.2025,2025-07-25T19:24:37-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1059047002.2025,2025-07-25T19:28:40-00:00",
+            "headline": "air quality warning in effect",
+            "event": "air quality",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "effective": "2025-07-25T22:01:11-00:00",
+            "expires": "2025-07-26T14:01:11-00:00",
+            "description": "\n###\n\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\n\nYou may experience mild and common symptoms such as eye, nose and throat irritation, headaches or a mild cough. More serious but less common symptoms include wheezing, chest pains or severe cough. If you think you are having a medical emergency, seek immediate medical assistance.\n\nFor further information visit the website https://www.airqualityontario.com/ or contact the Ontario Ministry of the Environment, Conservation and Parks at 416-314-6666.\n\nVisit http://www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.\n",
+            "instruction": "\nWhen indoors, keep windows and doors closed as much as possible. When there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\n\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\n\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\n\nCheck in on others who are in your care or live nearby who may be more likely to be impacted by outdoor air pollution.\n\nAlways follow guidance from local authorities.\n\nLearn more at https://www.canada.ca/wildfire-smoke.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Sachigo Lake - Bearskin Lake",
+                    "polygon": [
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 53.7297,
+                            "lon": -92.0252
+                        },
+                        {
+                            "lat": 53.9089,
+                            "lon": -93.4241
+                        },
+                        {
+                            "lat": 54.5171,
+                            "lon": -92.6285
+                        },
+                        {
+                            "lat": 55.1549,
+                            "lon": -91.653
+                        },
+                        {
+                            "lat": 55.5552,
+                            "lon": -91.0742
+                        },
+                        {
+                            "lat": 55.9307,
+                            "lon": -90.4723
+                        },
+                        {
+                            "lat": 55.7283,
+                            "lon": -89.6616
+                        },
+                        {
+                            "lat": 55.4984,
+                            "lon": -88.8527
+                        },
+                        {
+                            "lat": 54.5866,
+                            "lon": -89.6215
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Big Trout Lake - Kasabonika",
+                    "polygon": [
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        },
+                        {
+                            "lat": 53.3863,
+                            "lon": -89.3769
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 54.5994,
+                            "lon": -89.6775
+                        },
+                        {
+                            "lat": 55.4984,
+                            "lon": -88.8527
+                        },
+                        {
+                            "lat": 55.2628,
+                            "lon": -87.921
+                        },
+                        {
+                            "lat": 55.0075,
+                            "lon": -87.0122
+                        },
+                        {
+                            "lat": 54.1558,
+                            "lon": -87.4504
+                        },
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Sandy Lake - Weagamow Lake - Deer Lake",
+                    "polygon": [
+                        {
+                            "lat": 52.4841,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.6707,
+                            "lon": -95.1632
+                        },
+                        {
+                            "lat": 52.8415,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.8419,
+                            "lon": -95.153
+                        },
+                        {
+                            "lat": 53.2523,
+                            "lon": -94.5197
+                        },
+                        {
+                            "lat": 53.5766,
+                            "lon": -93.9327
+                        },
+                        {
+                            "lat": 53.7427,
+                            "lon": -93.68
+                        },
+                        {
+                            "lat": 53.9089,
+                            "lon": -93.4241
+                        },
+                        {
+                            "lat": 53.7604,
+                            "lon": -92.0407
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 52.9541,
+                            "lon": -90.9516
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 52.3546,
+                            "lon": -93.4886
+                        },
+                        {
+                            "lat": 52.4841,
+                            "lon": -95.1536
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Pikangikum - Poplar Hill - MacDowell",
+                    "polygon": [
+                        {
+                            "lat": 51.6128,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.0344,
+                            "lon": -95.169
+                        },
+                        {
+                            "lat": 52.4201,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.4841,
+                            "lon": -95.1536
+                        },
+                        {
+                            "lat": 52.4148,
+                            "lon": -93.4852
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 51.1193,
+                            "lon": -92.3388
+                        },
+                        {
+                            "lat": 51.3669,
+                            "lon": -93.4873
+                        },
+                        {
+                            "lat": 51.4154,
+                            "lon": -93.733
+                        },
+                        {
+                            "lat": 51.4733,
+                            "lon": -93.9542
+                        },
+                        {
+                            "lat": 51.5309,
+                            "lon": -94.5283
+                        },
+                        {
+                            "lat": 51.6128,
+                            "lon": -95.1536
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Summer Beaver - Wunnummin Lake - Kingfisher Lake",
+                    "polygon": [
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        },
+                        {
+                            "lat": 52.7534,
+                            "lon": -87.9569
+                        },
+                        {
+                            "lat": 52.2453,
+                            "lon": -87.9904
+                        },
+                        {
+                            "lat": 52.237,
+                            "lon": -89.76
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 52.9445,
+                            "lon": -91.0141
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 53.4188,
+                            "lon": -89.3718
+                        },
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Pickle Lake - Cat Lake",
+                    "polygon": [
+                        {
+                            "lat": 52.2453,
+                            "lon": -87.9904
+                        },
+                        {
+                            "lat": 51.1568,
+                            "lon": -87.9963
+                        },
+                        {
+                            "lat": 51.1354,
+                            "lon": -89.9953
+                        },
+                        {
+                            "lat": 51.1282,
+                            "lon": -91.0434
+                        },
+                        {
+                            "lat": 51.1193,
+                            "lon": -92.3388
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 52.2797,
+                            "lon": -89.8479
+                        },
+                        {
+                            "lat": 52.2453,
+                            "lon": -87.9904
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.0613258060.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-07-25T22:26:29-00:00",
+            "status": "Actual",
+            "msgType": "Alert",
+            "scope": "Public",
+            "references": null,
+            "headline": "fog advisory in effect",
+            "event": "fog",
+            "urgency": "Future",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "effective": "2025-07-25T22:26:29-00:00",
+            "expires": "2025-07-26T13:59:29-00:00",
+            "description": "\nNear zero visibility in fog is expected or occurring.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@ec.gc.ca or post reports on X using #ONStorm.\n",
+            "instruction": "\nIf visibility is reduced while driving, slow down, watch for tail lights ahead and be prepared to stop.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Watford - Pinery Park - Eastern Lambton County",
+                    "polygon": [
+                        {
+                            "lat": 42.936,
+                            "lon": -81.7805
+                        },
+                        {
+                            "lat": 42.8161,
+                            "lon": -81.79
+                        },
+                        {
+                            "lat": 42.8121,
+                            "lon": -81.7958
+                        },
+                        {
+                            "lat": 42.8258,
+                            "lon": -81.8144
+                        },
+                        {
+                            "lat": 42.8429,
+                            "lon": -81.8353
+                        },
+                        {
+                            "lat": 42.7535,
+                            "lon": -81.8316
+                        },
+                        {
+                            "lat": 42.651,
+                            "lon": -81.8354
+                        },
+                        {
+                            "lat": 42.6495,
+                            "lon": -81.9263
+                        },
+                        {
+                            "lat": 42.6506,
+                            "lon": -82.008
+                        },
+                        {
+                            "lat": 42.6419,
+                            "lon": -82.0061
+                        },
+                        {
+                            "lat": 42.6279,
+                            "lon": -82.0112
+                        },
+                        {
+                            "lat": 42.6246,
+                            "lon": -82.0234
+                        },
+                        {
+                            "lat": 42.6237,
+                            "lon": -82.0638
+                        },
+                        {
+                            "lat": 42.627,
+                            "lon": -82.1003
+                        },
+                        {
+                            "lat": 42.8595,
+                            "lon": -82.1059
+                        },
+                        {
+                            "lat": 43.1082,
+                            "lon": -82.0928
+                        },
+                        {
+                            "lat": 43.127,
+                            "lon": -82.0998
+                        },
+                        {
+                            "lat": 43.1763,
+                            "lon": -82.0434
+                        },
+                        {
+                            "lat": 43.2167,
+                            "lon": -82.0332
+                        },
+                        {
+                            "lat": 43.23,
+                            "lon": -81.9703
+                        },
+                        {
+                            "lat": 43.276,
+                            "lon": -81.8563
+                        },
+                        {
+                            "lat": 43.333,
+                            "lon": -81.7783
+                        },
+                        {
+                            "lat": 43.3155,
+                            "lon": -81.7554
+                        },
+                        {
+                            "lat": 43.3101,
+                            "lon": -81.7431
+                        },
+                        {
+                            "lat": 43.3068,
+                            "lon": -81.7453
+                        },
+                        {
+                            "lat": 43.3073,
+                            "lon": -81.753
+                        },
+                        {
+                            "lat": 43.2931,
+                            "lon": -81.755
+                        },
+                        {
+                            "lat": 43.2901,
+                            "lon": -81.7322
+                        },
+                        {
+                            "lat": 43.2393,
+                            "lon": -81.7485
+                        },
+                        {
+                            "lat": 43.1995,
+                            "lon": -81.7869
+                        },
+                        {
+                            "lat": 43.1817,
+                            "lon": -81.7927
+                        },
+                        {
+                            "lat": 43.1806,
+                            "lon": -81.7931
+                        },
+                        {
+                            "lat": 43.173,
+                            "lon": -81.7956
+                        },
+                        {
+                            "lat": 43.1273,
+                            "lon": -81.7852
+                        },
+                        {
+                            "lat": 43.1004,
+                            "lon": -81.8008
+                        },
+                        {
+                            "lat": 43.0657,
+                            "lon": -81.7892
+                        },
+                        {
+                            "lat": 42.936,
+                            "lon": -81.7805
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Sarnia - Petrolia - Western Lambton County",
+                    "polygon": [
+                        {
+                            "lat": 42.462,
+                            "lon": -82.4848
+                        },
+                        {
+                            "lat": 42.5101,
+                            "lon": -82.6214
+                        },
+                        {
+                            "lat": 42.5514,
+                            "lon": -82.5932
+                        },
+                        {
+                            "lat": 42.602,
+                            "lon": -82.5329
+                        },
+                        {
+                            "lat": 42.6123,
+                            "lon": -82.5157
+                        },
+                        {
+                            "lat": 42.6289,
+                            "lon": -82.506
+                        },
+                        {
+                            "lat": 42.6642,
+                            "lon": -82.5053
+                        },
+                        {
+                            "lat": 42.6957,
+                            "lon": -82.493
+                        },
+                        {
+                            "lat": 42.7237,
+                            "lon": -82.4773
+                        },
+                        {
+                            "lat": 42.7415,
+                            "lon": -82.4757
+                        },
+                        {
+                            "lat": 42.7567,
+                            "lon": -82.4647
+                        },
+                        {
+                            "lat": 42.772,
+                            "lon": -82.4624
+                        },
+                        {
+                            "lat": 42.8133,
+                            "lon": -82.4786
+                        },
+                        {
+                            "lat": 42.8401,
+                            "lon": -82.4656
+                        },
+                        {
+                            "lat": 42.9011,
+                            "lon": -82.4578
+                        },
+                        {
+                            "lat": 42.9285,
+                            "lon": -82.4487
+                        },
+                        {
+                            "lat": 42.9388,
+                            "lon": -82.4395
+                        },
+                        {
+                            "lat": 42.9502,
+                            "lon": -82.4249
+                        },
+                        {
+                            "lat": 42.9663,
+                            "lon": -82.4107
+                        },
+                        {
+                            "lat": 42.9944,
+                            "lon": -82.42
+                        },
+                        {
+                            "lat": 43.0087,
+                            "lon": -82.4157
+                        },
+                        {
+                            "lat": 43.0278,
+                            "lon": -82.4053
+                        },
+                        {
+                            "lat": 43.0452,
+                            "lon": -82.2407
+                        },
+                        {
+                            "lat": 43.066,
+                            "lon": -82.1749
+                        },
+                        {
+                            "lat": 43.1061,
+                            "lon": -82.1612
+                        },
+                        {
+                            "lat": 43.127,
+                            "lon": -82.0998
+                        },
+                        {
+                            "lat": 43.1082,
+                            "lon": -82.0928
+                        },
+                        {
+                            "lat": 42.8629,
+                            "lon": -82.086
+                        },
+                        {
+                            "lat": 42.627,
+                            "lon": -82.1003
+                        },
+                        {
+                            "lat": 42.6226,
+                            "lon": -82.2613
+                        },
+                        {
+                            "lat": 42.6307,
+                            "lon": -82.4593
+                        },
+                        {
+                            "lat": 42.6054,
+                            "lon": -82.4588
+                        },
+                        {
+                            "lat": 42.5874,
+                            "lon": -82.3991
+                        },
+                        {
+                            "lat": 42.5328,
+                            "lon": -82.3814
+                        },
+                        {
+                            "lat": 42.4901,
+                            "lon": -82.436
+                        },
+                        {
+                            "lat": 42.4783,
+                            "lon": -82.4404
+                        },
+                        {
+                            "lat": 42.462,
+                            "lon": -82.4848
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Goderich - Bluewater - Southern Huron County",
+                    "polygon": [
+                        {
+                            "lat": 43.3073,
+                            "lon": -81.753
+                        },
+                        {
+                            "lat": 43.3068,
+                            "lon": -81.7453
+                        },
+                        {
+                            "lat": 43.3101,
+                            "lon": -81.7431
+                        },
+                        {
+                            "lat": 43.3155,
+                            "lon": -81.7554
+                        },
+                        {
+                            "lat": 43.333,
+                            "lon": -81.7783
+                        },
+                        {
+                            "lat": 43.8383,
+                            "lon": -81.8031
+                        },
+                        {
+                            "lat": 43.8105,
+                            "lon": -81.721
+                        },
+                        {
+                            "lat": 43.7269,
+                            "lon": -81.5005
+                        },
+                        {
+                            "lat": 43.6013,
+                            "lon": -81.2052
+                        },
+                        {
+                            "lat": 43.5994,
+                            "lon": -81.2023
+                        },
+                        {
+                            "lat": 43.5027,
+                            "lon": -81.2872
+                        },
+                        {
+                            "lat": 43.5317,
+                            "lon": -81.3488
+                        },
+                        {
+                            "lat": 43.4205,
+                            "lon": -81.4401
+                        },
+                        {
+                            "lat": 43.3818,
+                            "lon": -81.3424
+                        },
+                        {
+                            "lat": 43.3915,
+                            "lon": -81.3085
+                        },
+                        {
+                            "lat": 43.3592,
+                            "lon": -81.2894
+                        },
+                        {
+                            "lat": 43.3129,
+                            "lon": -81.3165
+                        },
+                        {
+                            "lat": 43.2638,
+                            "lon": -81.3636
+                        },
+                        {
+                            "lat": 43.2764,
+                            "lon": -81.4
+                        },
+                        {
+                            "lat": 43.293,
+                            "lon": -81.4306
+                        },
+                        {
+                            "lat": 43.2889,
+                            "lon": -81.4689
+                        },
+                        {
+                            "lat": 43.2787,
+                            "lon": -81.4627
+                        },
+                        {
+                            "lat": 43.2706,
+                            "lon": -81.4655
+                        },
+                        {
+                            "lat": 43.2506,
+                            "lon": -81.6138
+                        },
+                        {
+                            "lat": 43.2393,
+                            "lon": -81.7485
+                        },
+                        {
+                            "lat": 43.2368,
+                            "lon": -81.7716
+                        },
+                        {
+                            "lat": 43.2379,
+                            "lon": -81.7738
+                        },
+                        {
+                            "lat": 43.2428,
+                            "lon": -81.7968
+                        },
+                        {
+                            "lat": 43.2957,
+                            "lon": -81.78
+                        },
+                        {
+                            "lat": 43.2931,
+                            "lon": -81.755
+                        },
+                        {
+                            "lat": 43.3073,
+                            "lon": -81.753
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.1549953044.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-07-25T22:27:48-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.0613258060.2025,2025-07-25T22:26:29-00:00",
+            "headline": "fog advisory in effect",
+            "event": "fog",
+            "urgency": "Future",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "effective": "2025-07-25T22:26:29-00:00",
+            "expires": "2025-07-26T13:59:29-00:00",
+            "description": "\nNear zero visibility in fog is expected or occurring.\n\nA fog bank from Lake Huron is moving into the region. Visibility will continue to deteriorate this evening, especially for areas near the shore. Conditions will improve early Saturday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@ec.gc.ca or post reports on X using #ONStorm.\n",
+            "instruction": "\nIf visibility is reduced while driving, slow down, watch for tail lights ahead and be prepared to stop.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Watford - Pinery Park - Eastern Lambton County",
+                    "polygon": [
+                        {
+                            "lat": 42.936,
+                            "lon": -81.7805
+                        },
+                        {
+                            "lat": 42.8161,
+                            "lon": -81.79
+                        },
+                        {
+                            "lat": 42.8121,
+                            "lon": -81.7958
+                        },
+                        {
+                            "lat": 42.8258,
+                            "lon": -81.8144
+                        },
+                        {
+                            "lat": 42.8429,
+                            "lon": -81.8353
+                        },
+                        {
+                            "lat": 42.7535,
+                            "lon": -81.8316
+                        },
+                        {
+                            "lat": 42.651,
+                            "lon": -81.8354
+                        },
+                        {
+                            "lat": 42.6495,
+                            "lon": -81.9263
+                        },
+                        {
+                            "lat": 42.6506,
+                            "lon": -82.008
+                        },
+                        {
+                            "lat": 42.6419,
+                            "lon": -82.0061
+                        },
+                        {
+                            "lat": 42.6279,
+                            "lon": -82.0112
+                        },
+                        {
+                            "lat": 42.6246,
+                            "lon": -82.0234
+                        },
+                        {
+                            "lat": 42.6237,
+                            "lon": -82.0638
+                        },
+                        {
+                            "lat": 42.627,
+                            "lon": -82.1003
+                        },
+                        {
+                            "lat": 42.8595,
+                            "lon": -82.1059
+                        },
+                        {
+                            "lat": 43.1082,
+                            "lon": -82.0928
+                        },
+                        {
+                            "lat": 43.127,
+                            "lon": -82.0998
+                        },
+                        {
+                            "lat": 43.1763,
+                            "lon": -82.0434
+                        },
+                        {
+                            "lat": 43.2167,
+                            "lon": -82.0332
+                        },
+                        {
+                            "lat": 43.23,
+                            "lon": -81.9703
+                        },
+                        {
+                            "lat": 43.276,
+                            "lon": -81.8563
+                        },
+                        {
+                            "lat": 43.333,
+                            "lon": -81.7783
+                        },
+                        {
+                            "lat": 43.3155,
+                            "lon": -81.7554
+                        },
+                        {
+                            "lat": 43.3101,
+                            "lon": -81.7431
+                        },
+                        {
+                            "lat": 43.3068,
+                            "lon": -81.7453
+                        },
+                        {
+                            "lat": 43.3073,
+                            "lon": -81.753
+                        },
+                        {
+                            "lat": 43.2931,
+                            "lon": -81.755
+                        },
+                        {
+                            "lat": 43.2901,
+                            "lon": -81.7322
+                        },
+                        {
+                            "lat": 43.2393,
+                            "lon": -81.7485
+                        },
+                        {
+                            "lat": 43.1995,
+                            "lon": -81.7869
+                        },
+                        {
+                            "lat": 43.1817,
+                            "lon": -81.7927
+                        },
+                        {
+                            "lat": 43.1806,
+                            "lon": -81.7931
+                        },
+                        {
+                            "lat": 43.173,
+                            "lon": -81.7956
+                        },
+                        {
+                            "lat": 43.1273,
+                            "lon": -81.7852
+                        },
+                        {
+                            "lat": 43.1004,
+                            "lon": -81.8008
+                        },
+                        {
+                            "lat": 43.0657,
+                            "lon": -81.7892
+                        },
+                        {
+                            "lat": 42.936,
+                            "lon": -81.7805
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Sarnia - Petrolia - Western Lambton County",
+                    "polygon": [
+                        {
+                            "lat": 42.462,
+                            "lon": -82.4848
+                        },
+                        {
+                            "lat": 42.5101,
+                            "lon": -82.6214
+                        },
+                        {
+                            "lat": 42.5514,
+                            "lon": -82.5932
+                        },
+                        {
+                            "lat": 42.602,
+                            "lon": -82.5329
+                        },
+                        {
+                            "lat": 42.6123,
+                            "lon": -82.5157
+                        },
+                        {
+                            "lat": 42.6289,
+                            "lon": -82.506
+                        },
+                        {
+                            "lat": 42.6642,
+                            "lon": -82.5053
+                        },
+                        {
+                            "lat": 42.6957,
+                            "lon": -82.493
+                        },
+                        {
+                            "lat": 42.7237,
+                            "lon": -82.4773
+                        },
+                        {
+                            "lat": 42.7415,
+                            "lon": -82.4757
+                        },
+                        {
+                            "lat": 42.7567,
+                            "lon": -82.4647
+                        },
+                        {
+                            "lat": 42.772,
+                            "lon": -82.4624
+                        },
+                        {
+                            "lat": 42.8133,
+                            "lon": -82.4786
+                        },
+                        {
+                            "lat": 42.8401,
+                            "lon": -82.4656
+                        },
+                        {
+                            "lat": 42.9011,
+                            "lon": -82.4578
+                        },
+                        {
+                            "lat": 42.9285,
+                            "lon": -82.4487
+                        },
+                        {
+                            "lat": 42.9388,
+                            "lon": -82.4395
+                        },
+                        {
+                            "lat": 42.9502,
+                            "lon": -82.4249
+                        },
+                        {
+                            "lat": 42.9663,
+                            "lon": -82.4107
+                        },
+                        {
+                            "lat": 42.9944,
+                            "lon": -82.42
+                        },
+                        {
+                            "lat": 43.0087,
+                            "lon": -82.4157
+                        },
+                        {
+                            "lat": 43.0278,
+                            "lon": -82.4053
+                        },
+                        {
+                            "lat": 43.0452,
+                            "lon": -82.2407
+                        },
+                        {
+                            "lat": 43.066,
+                            "lon": -82.1749
+                        },
+                        {
+                            "lat": 43.1061,
+                            "lon": -82.1612
+                        },
+                        {
+                            "lat": 43.127,
+                            "lon": -82.0998
+                        },
+                        {
+                            "lat": 43.1082,
+                            "lon": -82.0928
+                        },
+                        {
+                            "lat": 42.8629,
+                            "lon": -82.086
+                        },
+                        {
+                            "lat": 42.627,
+                            "lon": -82.1003
+                        },
+                        {
+                            "lat": 42.6226,
+                            "lon": -82.2613
+                        },
+                        {
+                            "lat": 42.6307,
+                            "lon": -82.4593
+                        },
+                        {
+                            "lat": 42.6054,
+                            "lon": -82.4588
+                        },
+                        {
+                            "lat": 42.5874,
+                            "lon": -82.3991
+                        },
+                        {
+                            "lat": 42.5328,
+                            "lon": -82.3814
+                        },
+                        {
+                            "lat": 42.4901,
+                            "lon": -82.436
+                        },
+                        {
+                            "lat": 42.4783,
+                            "lon": -82.4404
+                        },
+                        {
+                            "lat": 42.462,
+                            "lon": -82.4848
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Goderich - Bluewater - Southern Huron County",
+                    "polygon": [
+                        {
+                            "lat": 43.3073,
+                            "lon": -81.753
+                        },
+                        {
+                            "lat": 43.3068,
+                            "lon": -81.7453
+                        },
+                        {
+                            "lat": 43.3101,
+                            "lon": -81.7431
+                        },
+                        {
+                            "lat": 43.3155,
+                            "lon": -81.7554
+                        },
+                        {
+                            "lat": 43.333,
+                            "lon": -81.7783
+                        },
+                        {
+                            "lat": 43.8383,
+                            "lon": -81.8031
+                        },
+                        {
+                            "lat": 43.8105,
+                            "lon": -81.721
+                        },
+                        {
+                            "lat": 43.7269,
+                            "lon": -81.5005
+                        },
+                        {
+                            "lat": 43.6013,
+                            "lon": -81.2052
+                        },
+                        {
+                            "lat": 43.5994,
+                            "lon": -81.2023
+                        },
+                        {
+                            "lat": 43.5027,
+                            "lon": -81.2872
+                        },
+                        {
+                            "lat": 43.5317,
+                            "lon": -81.3488
+                        },
+                        {
+                            "lat": 43.4205,
+                            "lon": -81.4401
+                        },
+                        {
+                            "lat": 43.3818,
+                            "lon": -81.3424
+                        },
+                        {
+                            "lat": 43.3915,
+                            "lon": -81.3085
+                        },
+                        {
+                            "lat": 43.3592,
+                            "lon": -81.2894
+                        },
+                        {
+                            "lat": 43.3129,
+                            "lon": -81.3165
+                        },
+                        {
+                            "lat": 43.2638,
+                            "lon": -81.3636
+                        },
+                        {
+                            "lat": 43.2764,
+                            "lon": -81.4
+                        },
+                        {
+                            "lat": 43.293,
+                            "lon": -81.4306
+                        },
+                        {
+                            "lat": 43.2889,
+                            "lon": -81.4689
+                        },
+                        {
+                            "lat": 43.2787,
+                            "lon": -81.4627
+                        },
+                        {
+                            "lat": 43.2706,
+                            "lon": -81.4655
+                        },
+                        {
+                            "lat": 43.2506,
+                            "lon": -81.6138
+                        },
+                        {
+                            "lat": 43.2393,
+                            "lon": -81.7485
+                        },
+                        {
+                            "lat": 43.2368,
+                            "lon": -81.7716
+                        },
+                        {
+                            "lat": 43.2379,
+                            "lon": -81.7738
+                        },
+                        {
+                            "lat": 43.2428,
+                            "lon": -81.7968
+                        },
+                        {
+                            "lat": 43.2957,
+                            "lon": -81.78
+                        },
+                        {
+                            "lat": 43.2931,
+                            "lon": -81.755
+                        },
+                        {
+                            "lat": 43.3073,
+                            "lon": -81.753
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
