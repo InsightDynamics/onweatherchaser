@@ -2167,6 +2167,222 @@
             ]
         },
         {
+            "identifier": "urn:oid:2.49.0.1.124.0337573164.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-08-06T09:04:05-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.0359558504.2025,2025-08-05T23:02:39-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2332027386.2025,2025-08-05T23:04:22-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2222943722.2025,2025-08-06T03:21:53-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1833393463.2025,2025-08-06T03:22:41-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.4135889960.2025,2025-08-06T09:00:34-00:00",
+            "headline": "special air quality statement in effect",
+            "event": "air quality",
+            "urgency": "Future",
+            "severity": "Moderate",
+            "certainty": "Possible",
+            "effective": "2025-08-06T09:00:34-00:00",
+            "expires": "2025-08-07T01:00:34-00:00",
+            "description": "\nSmoke is causing or expected to cause poor air quality and reduced visibility.\n\nSmoke from forest fires in the area will continue to affect the region today.\n\nAir quality and visibility due to wildfire smoke can fluctuate over short distances and can vary considerably from hour to hour.\n\n###\n\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\n\nYou may experience mild and common symptoms such as eye, nose and throat irritation, headaches or a mild cough. More serious but less common symptoms include wheezing, chest pains or severe cough. If you think you are having a medical emergency, seek immediate medical assistance.\n\nPeople more likely to be impacted by outdoor air pollution, including people aged 65 and older, pregnant people, infants and young children, people with an existing illness or chronic health condition, and people who work outdoors, should reduce or reschedule strenuous activities outdoors and seek medical attention if experiencing symptoms.\n\nVisit http://www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.\n",
+            "instruction": "\nWhen indoors, keep windows and doors closed as much as possible. When there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\n\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\n\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\n\nCheck in on others who are in your care or live nearby who may be more likely to be impacted by outdoor air pollution.\n\nAlways follow guidance from local authorities.\n\nLearn more at https://www.canada.ca/wildfire-smoke.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Fort Severn",
+                    "polygon": [
+                        {
+                            "lat": 56.8474,
+                            "lon": -88.9894
+                        },
+                        {
+                            "lat": 56.9017,
+                            "lon": -88.9057
+                        },
+                        {
+                            "lat": 56.724,
+                            "lon": -88.6479
+                        },
+                        {
+                            "lat": 56.4915,
+                            "lon": -87.9073
+                        },
+                        {
+                            "lat": 56.1029,
+                            "lon": -87.4589
+                        },
+                        {
+                            "lat": 56.0007,
+                            "lon": -86.9972
+                        },
+                        {
+                            "lat": 55.9096,
+                            "lon": -87.0016
+                        },
+                        {
+                            "lat": 55.0075,
+                            "lon": -87.0122
+                        },
+                        {
+                            "lat": 55.2549,
+                            "lon": -87.9707
+                        },
+                        {
+                            "lat": 55.4984,
+                            "lon": -88.8527
+                        },
+                        {
+                            "lat": 55.7142,
+                            "lon": -89.6861
+                        },
+                        {
+                            "lat": 55.9307,
+                            "lon": -90.4723
+                        },
+                        {
+                            "lat": 56.1351,
+                            "lon": -90.1757
+                        },
+                        {
+                            "lat": 56.3004,
+                            "lon": -89.8863
+                        },
+                        {
+                            "lat": 56.8474,
+                            "lon": -88.9894
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Sachigo Lake - Bearskin Lake",
+                    "polygon": [
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 53.7297,
+                            "lon": -92.0252
+                        },
+                        {
+                            "lat": 53.9089,
+                            "lon": -93.4241
+                        },
+                        {
+                            "lat": 54.5171,
+                            "lon": -92.6285
+                        },
+                        {
+                            "lat": 55.1549,
+                            "lon": -91.653
+                        },
+                        {
+                            "lat": 55.5552,
+                            "lon": -91.0742
+                        },
+                        {
+                            "lat": 55.9307,
+                            "lon": -90.4723
+                        },
+                        {
+                            "lat": 55.7283,
+                            "lon": -89.6616
+                        },
+                        {
+                            "lat": 55.4984,
+                            "lon": -88.8527
+                        },
+                        {
+                            "lat": 54.5866,
+                            "lon": -89.6215
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Big Trout Lake - Kasabonika",
+                    "polygon": [
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        },
+                        {
+                            "lat": 53.3863,
+                            "lon": -89.3769
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 54.5994,
+                            "lon": -89.6775
+                        },
+                        {
+                            "lat": 55.4984,
+                            "lon": -88.8527
+                        },
+                        {
+                            "lat": 55.2628,
+                            "lon": -87.921
+                        },
+                        {
+                            "lat": 55.0075,
+                            "lon": -87.0122
+                        },
+                        {
+                            "lat": 54.1558,
+                            "lon": -87.4504
+                        },
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Summer Beaver - Wunnummin Lake - Kingfisher Lake",
+                    "polygon": [
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        },
+                        {
+                            "lat": 52.7534,
+                            "lon": -87.9569
+                        },
+                        {
+                            "lat": 52.2453,
+                            "lon": -87.9904
+                        },
+                        {
+                            "lat": 52.237,
+                            "lon": -89.76
+                        },
+                        {
+                            "lat": 52.2405,
+                            "lon": -91.5246
+                        },
+                        {
+                            "lat": 52.9445,
+                            "lon": -91.0141
+                        },
+                        {
+                            "lat": 53.543,
+                            "lon": -90.5082
+                        },
+                        {
+                            "lat": 53.4188,
+                            "lon": -89.3718
+                        },
+                        {
+                            "lat": 53.2172,
+                            "lon": -87.9958
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "identifier": "urn:oid:2.49.0.1.124.4135889960.2025",
             "sender": "cap-pac@canada.ca",
             "sent": "2025-08-06T09:00:34-00:00",
@@ -2377,6 +2593,528 @@
                         {
                             "lat": 53.2172,
                             "lon": -87.9958
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.2094671836.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-08-06T09:06:49-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.0586562061.2025,2025-08-06T03:01:15-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1751041612.2025,2025-08-06T03:03:49-00:00",
+            "headline": "special air quality statement in effect",
+            "event": "air quality",
+            "urgency": "Future",
+            "severity": "Moderate",
+            "certainty": "Possible",
+            "effective": "2025-08-06T09:06:49-00:00",
+            "expires": "2025-08-06T17:59:49-00:00",
+            "description": "\nSmoke is causing or expected to cause poor air quality and reduced visibility.\n\n###\n\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\n\nYou may experience mild and common symptoms such as eye, nose and throat irritation, headaches or a mild cough. More serious but less common symptoms include wheezing, chest pains or severe cough. If you think you are having a medical emergency, seek immediate medical assistance.\n\nPeople more likely to be impacted by outdoor air pollution, including people aged 65 and older, pregnant people, infants and young children, people with an existing illness or chronic health condition, and people who work outdoors, should reduce or reschedule strenuous activities outdoors and seek medical attention if experiencing symptoms.\n\nVisit http://www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.\n",
+            "instruction": "\nWhen indoors, keep windows and doors closed as much as possible. When there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\n\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\n\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\n\nCheck in on others who are in your care or live nearby who may be more likely to be impacted by outdoor air pollution.\n\nAlways follow guidance from local authorities.\n\nLearn more at https://www.canada.ca/wildfire-smoke.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Searchmont - Montreal River Harbour - Batchawana Bay",
+                    "polygon": [
+                        {
+                            "lat": 47.2346,
+                            "lon": -84.9134
+                        },
+                        {
+                            "lat": 47.2522,
+                            "lon": -84.6283
+                        },
+                        {
+                            "lat": 47.2516,
+                            "lon": -83.9912
+                        },
+                        {
+                            "lat": 47.2211,
+                            "lon": -83.9911
+                        },
+                        {
+                            "lat": 46.781,
+                            "lon": -83.9907
+                        },
+                        {
+                            "lat": 46.4826,
+                            "lon": -83.8414
+                        },
+                        {
+                            "lat": 46.6516,
+                            "lon": -84.4894
+                        },
+                        {
+                            "lat": 46.6539,
+                            "lon": -84.4985
+                        },
+                        {
+                            "lat": 46.6321,
+                            "lon": -84.7351
+                        },
+                        {
+                            "lat": 47.2346,
+                            "lon": -84.9134
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Sault Ste. Marie - St. Joseph Island",
+                    "polygon": [
+                        {
+                            "lat": 46.1874,
+                            "lon": -83.7076
+                        },
+                        {
+                            "lat": 46.1199,
+                            "lon": -83.7566
+                        },
+                        {
+                            "lat": 46.1212,
+                            "lon": -83.822
+                        },
+                        {
+                            "lat": 46.0658,
+                            "lon": -83.905
+                        },
+                        {
+                            "lat": 46.0553,
+                            "lon": -83.9495
+                        },
+                        {
+                            "lat": 46.0963,
+                            "lon": -83.9746
+                        },
+                        {
+                            "lat": 46.1959,
+                            "lon": -84.0972
+                        },
+                        {
+                            "lat": 46.3104,
+                            "lon": -84.1263
+                        },
+                        {
+                            "lat": 46.3253,
+                            "lon": -84.1115
+                        },
+                        {
+                            "lat": 46.3787,
+                            "lon": -84.1426
+                        },
+                        {
+                            "lat": 46.4183,
+                            "lon": -84.1542
+                        },
+                        {
+                            "lat": 46.5045,
+                            "lon": -84.112
+                        },
+                        {
+                            "lat": 46.5297,
+                            "lon": -84.1317
+                        },
+                        {
+                            "lat": 46.5267,
+                            "lon": -84.1725
+                        },
+                        {
+                            "lat": 46.5343,
+                            "lon": -84.2218
+                        },
+                        {
+                            "lat": 46.4968,
+                            "lon": -84.2602
+                        },
+                        {
+                            "lat": 46.491,
+                            "lon": -84.2943
+                        },
+                        {
+                            "lat": 46.5045,
+                            "lon": -84.3384
+                        },
+                        {
+                            "lat": 46.5073,
+                            "lon": -84.3741
+                        },
+                        {
+                            "lat": 46.4904,
+                            "lon": -84.439
+                        },
+                        {
+                            "lat": 46.4577,
+                            "lon": -84.4681
+                        },
+                        {
+                            "lat": 46.4765,
+                            "lon": -84.5588
+                        },
+                        {
+                            "lat": 46.5491,
+                            "lon": -84.6283
+                        },
+                        {
+                            "lat": 46.6233,
+                            "lon": -84.6124
+                        },
+                        {
+                            "lat": 46.6539,
+                            "lon": -84.4985
+                        },
+                        {
+                            "lat": 46.6516,
+                            "lon": -84.4894
+                        },
+                        {
+                            "lat": 46.4826,
+                            "lon": -83.8414
+                        },
+                        {
+                            "lat": 46.1874,
+                            "lon": -83.7076
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.3941460667.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-08-06T09:08:32-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.0586562061.2025,2025-08-06T03:01:15-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1751041612.2025,2025-08-06T03:03:49-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2094671836.2025,2025-08-06T09:06:49-00:00",
+            "headline": "special air quality statement in effect",
+            "event": "air quality",
+            "urgency": "Future",
+            "severity": "Moderate",
+            "certainty": "Possible",
+            "effective": "2025-08-06T09:06:49-00:00",
+            "expires": "2025-08-06T17:59:49-00:00",
+            "description": "\nSmoke is causing or expected to cause poor air quality and reduced visibility.\n\nSmoke from forest fires is affecting the area this morning.\n\nAir quality and visibility due to wildfire smoke can fluctuate over short distances and can vary considerably from hour to hour.\n\n###\n\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\n\nYou may experience mild and common symptoms such as eye, nose and throat irritation, headaches or a mild cough. More serious but less common symptoms include wheezing, chest pains or severe cough. If you think you are having a medical emergency, seek immediate medical assistance.\n\nPeople more likely to be impacted by outdoor air pollution, including people aged 65 and older, pregnant people, infants and young children, people with an existing illness or chronic health condition, and people who work outdoors, should reduce or reschedule strenuous activities outdoors and seek medical attention if experiencing symptoms.\n\nVisit http://www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.\n",
+            "instruction": "\nWhen indoors, keep windows and doors closed as much as possible. When there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\n\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\n\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\n\nCheck in on others who are in your care or live nearby who may be more likely to be impacted by outdoor air pollution.\n\nAlways follow guidance from local authorities.\n\nLearn more at https://www.canada.ca/wildfire-smoke.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Searchmont - Montreal River Harbour - Batchawana Bay",
+                    "polygon": [
+                        {
+                            "lat": 47.2346,
+                            "lon": -84.9134
+                        },
+                        {
+                            "lat": 47.2522,
+                            "lon": -84.6283
+                        },
+                        {
+                            "lat": 47.2516,
+                            "lon": -83.9912
+                        },
+                        {
+                            "lat": 47.2211,
+                            "lon": -83.9911
+                        },
+                        {
+                            "lat": 46.781,
+                            "lon": -83.9907
+                        },
+                        {
+                            "lat": 46.4826,
+                            "lon": -83.8414
+                        },
+                        {
+                            "lat": 46.6516,
+                            "lon": -84.4894
+                        },
+                        {
+                            "lat": 46.6539,
+                            "lon": -84.4985
+                        },
+                        {
+                            "lat": 46.6321,
+                            "lon": -84.7351
+                        },
+                        {
+                            "lat": 47.2346,
+                            "lon": -84.9134
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Sault Ste. Marie - St. Joseph Island",
+                    "polygon": [
+                        {
+                            "lat": 46.1874,
+                            "lon": -83.7076
+                        },
+                        {
+                            "lat": 46.1199,
+                            "lon": -83.7566
+                        },
+                        {
+                            "lat": 46.1212,
+                            "lon": -83.822
+                        },
+                        {
+                            "lat": 46.0658,
+                            "lon": -83.905
+                        },
+                        {
+                            "lat": 46.0553,
+                            "lon": -83.9495
+                        },
+                        {
+                            "lat": 46.0963,
+                            "lon": -83.9746
+                        },
+                        {
+                            "lat": 46.1959,
+                            "lon": -84.0972
+                        },
+                        {
+                            "lat": 46.3104,
+                            "lon": -84.1263
+                        },
+                        {
+                            "lat": 46.3253,
+                            "lon": -84.1115
+                        },
+                        {
+                            "lat": 46.3787,
+                            "lon": -84.1426
+                        },
+                        {
+                            "lat": 46.4183,
+                            "lon": -84.1542
+                        },
+                        {
+                            "lat": 46.5045,
+                            "lon": -84.112
+                        },
+                        {
+                            "lat": 46.5297,
+                            "lon": -84.1317
+                        },
+                        {
+                            "lat": 46.5267,
+                            "lon": -84.1725
+                        },
+                        {
+                            "lat": 46.5343,
+                            "lon": -84.2218
+                        },
+                        {
+                            "lat": 46.4968,
+                            "lon": -84.2602
+                        },
+                        {
+                            "lat": 46.491,
+                            "lon": -84.2943
+                        },
+                        {
+                            "lat": 46.5045,
+                            "lon": -84.3384
+                        },
+                        {
+                            "lat": 46.5073,
+                            "lon": -84.3741
+                        },
+                        {
+                            "lat": 46.4904,
+                            "lon": -84.439
+                        },
+                        {
+                            "lat": 46.4577,
+                            "lon": -84.4681
+                        },
+                        {
+                            "lat": 46.4765,
+                            "lon": -84.5588
+                        },
+                        {
+                            "lat": 46.5491,
+                            "lon": -84.6283
+                        },
+                        {
+                            "lat": 46.6233,
+                            "lon": -84.6124
+                        },
+                        {
+                            "lat": 46.6539,
+                            "lon": -84.4985
+                        },
+                        {
+                            "lat": 46.6516,
+                            "lon": -84.4894
+                        },
+                        {
+                            "lat": 46.4826,
+                            "lon": -83.8414
+                        },
+                        {
+                            "lat": 46.1874,
+                            "lon": -83.7076
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.4217027718.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-08-06T09:40:37-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.0502214558.2025,2025-08-05T15:18:58-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2020186471.2025,2025-08-06T00:39:44-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2408816684.2025,2025-08-06T06:22:30-00:00",
+            "headline": "heat warning in effect",
+            "event": "heat",
+            "urgency": "Future",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "effective": "2025-08-06T09:40:37-00:00",
+            "expires": "2025-08-07T01:40:37-00:00",
+            "description": "\n###\n\nFor more information: https://www.canada.ca/en/health-canada/services/climate-change-health/extreme-heat/how-protect-yourself.html https://www.canada.ca/en/health-canada/services/climate-change-health/extreme-heat/who-is-at-risk.html\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@ec.gc.ca or post reports on X using #ONStorm.\n",
+            "instruction": "\nTake action to protect yourself and others – extreme heat can affect everyone’s health. Determine if you or others around you are at greater risk of heat illness. Check on older adults, those living alone and other at-risk people in-person or on the phone multiple times a day.\n\nWatch for the early signs of heat exhaustion in yourself and others. Signs may include headache, nausea, dizziness, thirst, dark urine and intense fatigue. Stop your activity and drink water. \n\nHeat stroke is a medical emergency! Call 9-1-1 or your emergency health provider if you, or someone around you, is showing signs of heat stroke which can include red and hot skin, dizziness, nausea, confusion and change in consciousness. While you wait for medical attention, try to cool the person by moving them to a cool place, removing extra clothing, applying cold water or ice packs around the body.\n\nDrink water often and before you feel thirsty to replace fluids. \n\nClose blinds, or shades and open windows if outside is cooler than inside. \n\nTurn on air conditioning, use a fan, or move to a cooler area of your living space. If your living space is hot, move to a cool public space such as a cooling centre, community centre, library or shaded park. \n\nFollow the advice of your region’s public health authority.\n\nPlan and schedule outdoor activities during the coolest parts of the day. \n\nLimit direct exposure to the sun and heat. Wear lightweight, light-coloured, loose-fitting clothing and a wide-brimmed hat. \n\nNever leave people, especially children, or pets inside a parked vehicle. Check the vehicle before locking to make sure no one is left behind.\n",
+            "affected_areas": [
+                {
+                    "area_description": "Fort Severn",
+                    "polygon": [
+                        {
+                            "lat": 56.8474,
+                            "lon": -88.9894
+                        },
+                        {
+                            "lat": 56.9017,
+                            "lon": -88.9057
+                        },
+                        {
+                            "lat": 56.724,
+                            "lon": -88.6479
+                        },
+                        {
+                            "lat": 56.4915,
+                            "lon": -87.9073
+                        },
+                        {
+                            "lat": 56.1029,
+                            "lon": -87.4589
+                        },
+                        {
+                            "lat": 56.0007,
+                            "lon": -86.9972
+                        },
+                        {
+                            "lat": 55.9096,
+                            "lon": -87.0016
+                        },
+                        {
+                            "lat": 55.0075,
+                            "lon": -87.0122
+                        },
+                        {
+                            "lat": 55.2549,
+                            "lon": -87.9707
+                        },
+                        {
+                            "lat": 55.4984,
+                            "lon": -88.8527
+                        },
+                        {
+                            "lat": 55.7142,
+                            "lon": -89.6861
+                        },
+                        {
+                            "lat": 55.9307,
+                            "lon": -90.4723
+                        },
+                        {
+                            "lat": 56.1351,
+                            "lon": -90.1757
+                        },
+                        {
+                            "lat": 56.3004,
+                            "lon": -89.8863
+                        },
+                        {
+                            "lat": 56.8474,
+                            "lon": -88.9894
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Peawanuck",
+                    "polygon": [
+                        {
+                            "lat": 56.0007,
+                            "lon": -86.9972
+                        },
+                        {
+                            "lat": 55.7283,
+                            "lon": -85.6784
+                        },
+                        {
+                            "lat": 55.3741,
+                            "lon": -84.958
+                        },
+                        {
+                            "lat": 55.3859,
+                            "lon": -83.9602
+                        },
+                        {
+                            "lat": 55.2286,
+                            "lon": -82.9498
+                        },
+                        {
+                            "lat": 55.1832,
+                            "lon": -82.7847
+                        },
+                        {
+                            "lat": 55.1755,
+                            "lon": -82.2786
+                        },
+                        {
+                            "lat": 55.0671,
+                            "lon": -82.007
+                        },
+                        {
+                            "lat": 54.6123,
+                            "lon": -82.0824
+                        },
+                        {
+                            "lat": 53.9804,
+                            "lon": -81.9568
+                        },
+                        {
+                            "lat": 54.0004,
+                            "lon": -82.2294
+                        },
+                        {
+                            "lat": 54.0006,
+                            "lon": -82.2369
+                        },
+                        {
+                            "lat": 54.0287,
+                            "lon": -83.7002
+                        },
+                        {
+                            "lat": 55.0039,
+                            "lon": -87.008
+                        },
+                        {
+                            "lat": 55.0075,
+                            "lon": -87.0122
+                        },
+                        {
+                            "lat": 55.9096,
+                            "lon": -87.0016
+                        },
+                        {
+                            "lat": 56.0007,
+                            "lon": -86.9972
                         }
                     ]
                 }
