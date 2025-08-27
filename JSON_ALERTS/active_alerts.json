@@ -1,21 +1,21 @@
 {
     "alerts": [
         {
-            "identifier": "urn:oid:2.49.0.1.124.0687167398.2025",
+            "identifier": "urn:oid:2.49.0.1.124.2020328433.2025",
             "sender": "cap-pac@canada.ca",
-            "sent": "2025-08-27T00:03:01-00:00",
+            "sent": "2025-08-27T06:54:57-00:00",
             "status": "Actual",
             "msgType": "Update",
             "scope": "Public",
-            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.1371608056.2025,2025-08-25T10:35:46-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2289840218.2025,2025-08-25T12:23:52-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3685496702.2025,2025-08-25T22:59:38-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0286672946.2025,2025-08-26T07:05:52-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.4059488165.2025,2025-08-26T21:04:01-00:00",
-            "headline": "waterspout watch in effect",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.1371608056.2025,2025-08-25T10:35:46-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2289840218.2025,2025-08-25T12:23:52-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3685496702.2025,2025-08-25T22:59:38-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0286672946.2025,2025-08-26T07:05:52-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.4059488165.2025,2025-08-26T21:04:01-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0687167398.2025,2025-08-27T00:03:01-00:00",
+            "headline": "waterspout watch ended",
             "event": "waterspout",
-            "urgency": "Future",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "effective": "2025-08-27T00:03:01-00:00",
-            "expires": "2025-08-27T12:16:01-00:00",
-            "description": "\nConditions are favourable for the development of waterspouts over Lake Ontario and eastern Lake Erie tonight.\n\n###\n\nWind speeds inside the spray ring of a waterspout are 45 knots or higher. Vulnerable vessels are at risk of damage or capsizing.\n\nWaterspouts are generally isolated in nature although they can also occur in families of two or more. Spray rings associated with waterspouts can measure in the tens of metres. Waterspouts sometimes appear as funnel clouds with swirling water visible near the surface.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.\n",
+            "urgency": "Past",
+            "severity": "Minor",
+            "certainty": "Observed",
+            "effective": "2025-08-27T06:54:57-00:00",
+            "expires": "2025-08-27T07:54:57-00:00",
+            "description": "\nConditions are no longer favourable for the development of waterspouts.\n\n\n###\n",
             "instruction": null,
             "affected_areas": [
                 {
