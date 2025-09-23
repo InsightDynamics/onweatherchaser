@@ -1,21 +1,158 @@
 {
     "alerts": [
         {
-            "identifier": "urn:oid:2.49.0.1.124.0535160826.2025",
+            "identifier": "urn:oid:2.49.0.1.124.4176012487.2025",
             "sender": "cap-pac@canada.ca",
-            "sent": "2025-09-22T16:45:41-00:00",
+            "sent": "2025-09-23T01:10:55-00:00",
             "status": "Actual",
-            "msgType": "Alert",
+            "msgType": "Update",
             "scope": "Public",
-            "references": null,
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.2198766094.2025,2025-09-22T23:35:17-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1784057481.2025,2025-09-22T23:36:16-00:00",
+            "headline": "squall warning ended",
+            "event": "squall",
+            "urgency": "Past",
+            "severity": "Minor",
+            "certainty": "Observed",
+            "effective": "2025-09-23T01:10:55-00:00",
+            "expires": "2025-09-23T02:10:55-00:00",
+            "description": "\nSqualls have weakened or moved out of the area.\n\n\n###\n",
+            "instruction": null,
+            "affected_areas": [
+                {
+                    "area_description": "Northern Lake Huron",
+                    "polygon": [
+                        {
+                            "lat": 45.6446,
+                            "lon": -81.965
+                        },
+                        {
+                            "lat": 45.6957,
+                            "lon": -81.8568
+                        },
+                        {
+                            "lat": 45.7199,
+                            "lon": -81.7625
+                        },
+                        {
+                            "lat": 45.6849,
+                            "lon": -81.7154
+                        },
+                        {
+                            "lat": 45.5579,
+                            "lon": -81.863
+                        },
+                        {
+                            "lat": 45.5141,
+                            "lon": -81.8381
+                        },
+                        {
+                            "lat": 45.4832,
+                            "lon": -81.8194
+                        },
+                        {
+                            "lat": 45.4427,
+                            "lon": -81.7945
+                        },
+                        {
+                            "lat": 45.3115,
+                            "lon": -81.7141
+                        },
+                        {
+                            "lat": 45.3006,
+                            "lon": -81.7137
+                        },
+                        {
+                            "lat": 45.2925,
+                            "lon": -81.7042
+                        },
+                        {
+                            "lat": 45.2883,
+                            "lon": -81.6999
+                        },
+                        {
+                            "lat": 45.2541,
+                            "lon": -81.6791
+                        },
+                        {
+                            "lat": 45.1907,
+                            "lon": -81.5569
+                        },
+                        {
+                            "lat": 45.081,
+                            "lon": -81.3896
+                        },
+                        {
+                            "lat": 44.7061,
+                            "lon": -81.2189
+                        },
+                        {
+                            "lat": 44.7035,
+                            "lon": -81.273
+                        },
+                        {
+                            "lat": 44.7041,
+                            "lon": -81.2898
+                        },
+                        {
+                            "lat": 44.7096,
+                            "lon": -82.3729
+                        },
+                        {
+                            "lat": 45.3386,
+                            "lon": -82.5186
+                        },
+                        {
+                            "lat": 45.8212,
+                            "lon": -83.5971
+                        },
+                        {
+                            "lat": 45.94,
+                            "lon": -83.4874
+                        },
+                        {
+                            "lat": 45.9405,
+                            "lon": -83.487
+                        },
+                        {
+                            "lat": 45.9348,
+                            "lon": -83.4701
+                        },
+                        {
+                            "lat": 45.9085,
+                            "lon": -83.273
+                        },
+                        {
+                            "lat": 45.9069,
+                            "lon": -83.2611
+                        },
+                        {
+                            "lat": 45.9014,
+                            "lon": -83.2302
+                        },
+                        {
+                            "lat": 45.6446,
+                            "lon": -81.965
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "identifier": "urn:oid:2.49.0.1.124.2371403680.2025",
+            "sender": "cap-pac@canada.ca",
+            "sent": "2025-09-23T01:36:10-00:00",
+            "status": "Actual",
+            "msgType": "Update",
+            "scope": "Public",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.0535160826.2025,2025-09-22T16:45:41-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3261995418.2025,2025-09-22T17:05:54-00:00",
             "headline": "special weather statement in effect",
             "event": "weather",
             "urgency": "Future",
             "severity": "Minor",
             "certainty": "Possible",
-            "effective": "2025-09-22T16:45:41-00:00",
-            "expires": "2025-09-23T08:45:41-00:00",
-            "description": "\nLocally heavy rain is possible this afternoon through tonight.\n\nWhat:\nLocal rainfall amounts of 30 to 50 millimetres\n\nWhen:\nBeginning this afternoon and easing Tuesday morning\n\nAdditional information:\nScattered showers and thunderstorms are expected to develop this afternoon and increase in coverage through this evening. Locally heavy rain is possible with some areas seeing up to 30 to 50 millimetres by Tuesday morning. The showers are expected to ease through Tuesday morning. Rainfall warnings may be required.\n\nHeavy downpours can cause flash floods and water pooling on roads. \nLocalized flooding in low-lying areas is possible. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources office. Visit Ontario.ca/floods for the latest details.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@ec.gc.ca or post reports on X using #ONStorm.\n",
+            "effective": "2025-09-23T01:36:10-00:00",
+            "expires": "2025-09-23T17:36:10-00:00",
+            "description": "\nLocally heavy rain continues tonight.\n\nWhat:\nLocal rainfall amounts of 30 to 50 millimetres.\n\nWhen:\nContinuing through Tuesday morning.\n\nAdditional information:\nScattered showers and thunderstorms are expected to continue tonight. The showers are expected to ease through Tuesday morning. \nRainfall warnings may be required.\n\nHeavy downpours can cause flash floods and water pooling on roads. \nLocalized flooding in low-lying areas is possible. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources office. Visit Ontario.ca/floods for the latest details.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@ec.gc.ca or post reports on X using #ONStorm.\n",
             "instruction": null,
             "affected_areas": [
                 {
@@ -311,80 +448,227 @@
             ]
         },
         {
-            "identifier": "urn:oid:2.49.0.1.124.0795772502.2025",
+            "identifier": "urn:oid:2.49.0.1.124.0335032288.2025",
             "sender": "cap-pac@canada.ca",
-            "sent": "2025-09-22T17:43:54-00:00",
+            "sent": "2025-09-23T01:41:49-00:00",
             "status": "Actual",
             "msgType": "Update",
             "scope": "Public",
-            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.3618412144.2025,2025-09-21T20:10:36-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2470803996.2025,2025-09-22T03:17:33-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3697768144.2025,2025-09-22T03:18:43-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1607086623.2025,2025-09-22T09:09:21-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0696045082.2025,2025-09-22T11:04:26-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1731452952.2025,2025-09-22T11:05:17-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1075104623.2025,2025-09-22T13:23:45-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3974272308.2025,2025-09-22T13:25:44-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.4061142491.2025,2025-09-22T13:44:56-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2501747424.2025,2025-09-22T15:12:41-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2930805284.2025,2025-09-22T15:14:16-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1477736999.2025,2025-09-22T15:38:04-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1877971453.2025,2025-09-22T15:40:02-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3654777183.2025,2025-09-22T16:08:01-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1070808499.2025,2025-09-22T16:09:05-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1157229809.2025,2025-09-22T17:00:36-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2817836665.2025,2025-09-22T17:03:18-00:00",
-            "headline": "fog advisory ended",
-            "event": "fog",
-            "urgency": "Past",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.0535160826.2025,2025-09-22T16:45:41-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3261995418.2025,2025-09-22T17:05:54-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2371403680.2025,2025-09-23T01:36:10-00:00",
+            "headline": "special weather statement in effect",
+            "event": "weather",
+            "urgency": "Future",
             "severity": "Minor",
-            "certainty": "Observed",
-            "effective": "2025-09-22T17:43:54-00:00",
-            "expires": "2025-09-22T18:43:54-00:00",
-            "description": "\nVisibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###\n",
+            "certainty": "Possible",
+            "effective": "2025-09-23T01:41:49-00:00",
+            "expires": "2025-09-23T17:41:49-00:00",
+            "description": "\nLocally heavy rain continues tonight.\n\nWhat:\nLocal rainfall amounts of 30 to 50 millimetres.\n\nWhen:\nContinuing through Tuesday morning.\n\nAdditional information:\nScattered showers and thunderstorms are expected to continue tonight. The showers are expected to ease through Tuesday morning. \nRainfall warnings may be required.\n\nHeavy downpours can cause flash floods and water pooling on roads. \nLocalized flooding in low-lying areas is possible. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources office. Visit Ontario.ca/floods for the latest details.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@ec.gc.ca or post reports on X using #ONStorm.\n",
             "instruction": null,
             "affected_areas": [
                 {
-                    "area_description": "Marathon - Schreiber",
+                    "area_description": "White River - Dubreuilville",
                     "polygon": [
                         {
-                            "lat": 48.4447,
-                            "lon": -87.4467
+                            "lat": 48.0981,
+                            "lon": -84.2352
                         },
                         {
-                            "lat": 49.1383,
-                            "lon": -87.4321
+                            "lat": 48.0978,
+                            "lon": -84.2401
                         },
                         {
-                            "lat": 48.8844,
-                            "lon": -85.9469
+                            "lat": 48.2896,
+                            "lon": -85.2219
                         },
                         {
                             "lat": 48.7455,
                             "lon": -86.0931
                         },
                         {
-                            "lat": 48.5796,
-                            "lon": -86.2679
+                            "lat": 48.8844,
+                            "lon": -85.9469
                         },
                         {
-                            "lat": 48.5745,
-                            "lon": -86.2839
+                            "lat": 48.5511,
+                            "lon": -84.0089
+                        },
+                        {
+                            "lat": 48.5499,
+                            "lon": -84.002
+                        },
+                        {
+                            "lat": 48.1107,
+                            "lon": -83.9939
+                        },
+                        {
+                            "lat": 48.1106,
+                            "lon": -83.996
+                        },
+                        {
+                            "lat": 48.0981,
+                            "lon": -84.2352
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Wawa - Pukaskwa Park",
+                    "polygon": [
+                        {
+                            "lat": 47.4654,
+                            "lon": -86.1345
                         },
                         {
                             "lat": 48.2984,
                             "lon": -86.5309
                         },
                         {
-                            "lat": 48.4447,
-                            "lon": -87.4467
+                            "lat": 48.5745,
+                            "lon": -86.2839
+                        },
+                        {
+                            "lat": 48.5796,
+                            "lon": -86.2679
+                        },
+                        {
+                            "lat": 48.7455,
+                            "lon": -86.0931
+                        },
+                        {
+                            "lat": 48.2896,
+                            "lon": -85.2219
+                        },
+                        {
+                            "lat": 48.0978,
+                            "lon": -84.2401
+                        },
+                        {
+                            "lat": 48.0973,
+                            "lon": -84.2418
+                        },
+                        {
+                            "lat": 47.963,
+                            "lon": -84.6559
+                        },
+                        {
+                            "lat": 47.8957,
+                            "lon": -84.8608
+                        },
+                        {
+                            "lat": 47.824,
+                            "lon": -85.1481
+                        },
+                        {
+                            "lat": 47.2346,
+                            "lon": -84.9134
+                        },
+                        {
+                            "lat": 47.3094,
+                            "lon": -85.809
+                        },
+                        {
+                            "lat": 47.4654,
+                            "lon": -86.1345
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "identifier": "urn:oid:2.49.0.1.124.2200351018.2025",
-            "sender": "cap-pac@canada.ca",
-            "sent": "2025-09-22T17:06:00-00:00",
-            "status": "Actual",
-            "msgType": "Alert",
-            "scope": "Public",
-            "references": null,
-            "headline": "special weather statement in effect",
-            "event": "weather",
-            "urgency": "Future",
-            "severity": "Minor",
-            "certainty": "Possible",
-            "effective": "2025-09-22T17:06:00-00:00",
-            "expires": "2025-09-23T09:06:00-00:00",
-            "description": "\nLocally heavy rain is possible this afternoon through tonight.\n\nWhat:\nLocal rainfall amounts of 30 to 50 millimetres.\n\nWhere: \nAreas along and north of highway 556 and north of and including Aubrey Falls Provincial Park.\n\nWhen:\nBeginning this afternoon and easing Tuesday morning.\n\nAdditional information:\nScattered showers and thunderstorms are expected to develop this afternoon and increase in coverage through this evening. Locally heavy rain is possible with some areas seeing up to 30 to 50 millimetres by Tuesday morning. The showers are expected to ease through Tuesday morning. Rainfall warnings may be required.\n\nHeavy downpours can cause flash floods and water pooling on roads. \nLocalized flooding in low-lying areas is possible. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources office. Visit Ontario.ca/floods for the latest details\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@ec.gc.ca or post reports on X using #ONStorm.\n",
-            "instruction": null,
-            "affected_areas": [
+                },
+                {
+                    "area_description": "Agawa - Lake Superior Park",
+                    "polygon": [
+                        {
+                            "lat": 47.824,
+                            "lon": -85.1481
+                        },
+                        {
+                            "lat": 47.8957,
+                            "lon": -84.8608
+                        },
+                        {
+                            "lat": 47.963,
+                            "lon": -84.6559
+                        },
+                        {
+                            "lat": 48.0973,
+                            "lon": -84.2418
+                        },
+                        {
+                            "lat": 48.0978,
+                            "lon": -84.2401
+                        },
+                        {
+                            "lat": 48.0981,
+                            "lon": -84.2352
+                        },
+                        {
+                            "lat": 48.1106,
+                            "lon": -83.996
+                        },
+                        {
+                            "lat": 48.1107,
+                            "lon": -83.9939
+                        },
+                        {
+                            "lat": 47.2516,
+                            "lon": -83.9912
+                        },
+                        {
+                            "lat": 47.2522,
+                            "lon": -84.6283
+                        },
+                        {
+                            "lat": 47.2346,
+                            "lon": -84.9134
+                        },
+                        {
+                            "lat": 47.824,
+                            "lon": -85.1481
+                        }
+                    ]
+                },
+                {
+                    "area_description": "Searchmont - Montreal River Harbour - Batchawana Bay",
+                    "polygon": [
+                        {
+                            "lat": 47.2346,
+                            "lon": -84.9134
+                        },
+                        {
+                            "lat": 47.2522,
+                            "lon": -84.6283
+                        },
+                        {
+                            "lat": 47.2516,
+                            "lon": -83.9912
+                        },
+                        {
+                            "lat": 47.2211,
+                            "lon": -83.9911
+                        },
+                        {
+                            "lat": 46.781,
+                            "lon": -83.9907
+                        },
+                        {
+                            "lat": 46.4826,
+                            "lon": -83.8414
+                        },
+                        {
+                            "lat": 46.6516,
+                            "lon": -84.4894
+                        },
+                        {
+                            "lat": 46.6539,
+                            "lon": -84.4985
+                        },
+                        {
+                            "lat": 46.6321,
+                            "lon": -84.7351
+                        },
+                        {
+                            "lat": 47.2346,
+                            "lon": -84.9134
+                        }
+                    ]
+                },
                 {
                     "area_description": "Elliot Lake - Ranger Lake",
                     "polygon": [
@@ -433,230 +717,6 @@
                             "lon": -82.6356
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "identifier": "urn:oid:2.49.0.1.124.3261995418.2025",
-            "sender": "cap-pac@canada.ca",
-            "sent": "2025-09-22T17:05:54-00:00",
-            "status": "Actual",
-            "msgType": "Update",
-            "scope": "Public",
-            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.0535160826.2025,2025-09-22T16:45:41-00:00",
-            "headline": "special weather statement in effect",
-            "event": "weather",
-            "urgency": "Future",
-            "severity": "Minor",
-            "certainty": "Possible",
-            "effective": "2025-09-22T17:05:54-00:00",
-            "expires": "2025-09-23T09:05:54-00:00",
-            "description": "\nLocally heavy rain is possible this afternoon through tonight.\n\nWhat:\nLocal rainfall amounts of 30 to 50 millimetres\n\nWhen:\nBeginning this afternoon and easing Tuesday morning\n\nAdditional information:\nScattered showers and thunderstorms are expected to develop this afternoon and increase in coverage through this evening. Locally heavy rain is possible with some areas seeing up to 30 to 50 millimetres by Tuesday morning. The showers are expected to ease through Tuesday morning. Rainfall warnings may be required.\n\nHeavy downpours can cause flash floods and water pooling on roads. \nLocalized flooding in low-lying areas is possible. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources office. Visit Ontario.ca/floods for the latest details.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@ec.gc.ca or post reports on X using #ONStorm.\n",
-            "instruction": null,
-            "affected_areas": [
-                {
-                    "area_description": "White River - Dubreuilville",
-                    "polygon": [
-                        {
-                            "lat": 48.0981,
-                            "lon": -84.2352
-                        },
-                        {
-                            "lat": 48.0978,
-                            "lon": -84.2401
-                        },
-                        {
-                            "lat": 48.2896,
-                            "lon": -85.2219
-                        },
-                        {
-                            "lat": 48.7455,
-                            "lon": -86.0931
-                        },
-                        {
-                            "lat": 48.8844,
-                            "lon": -85.9469
-                        },
-                        {
-                            "lat": 48.5511,
-                            "lon": -84.0089
-                        },
-                        {
-                            "lat": 48.5499,
-                            "lon": -84.002
-                        },
-                        {
-                            "lat": 48.1107,
-                            "lon": -83.9939
-                        },
-                        {
-                            "lat": 48.1106,
-                            "lon": -83.996
-                        },
-                        {
-                            "lat": 48.0981,
-                            "lon": -84.2352
-                        }
-                    ]
-                },
-                {
-                    "area_description": "Wawa - Pukaskwa Park",
-                    "polygon": [
-                        {
-                            "lat": 47.4654,
-                            "lon": -86.1345
-                        },
-                        {
-                            "lat": 48.2984,
-                            "lon": -86.5309
-                        },
-                        {
-                            "lat": 48.5745,
-                            "lon": -86.2839
-                        },
-                        {
-                            "lat": 48.5796,
-                            "lon": -86.2679
-                        },
-                        {
-                            "lat": 48.7455,
-                            "lon": -86.0931
-                        },
-                        {
-                            "lat": 48.2896,
-                            "lon": -85.2219
-                        },
-                        {
-                            "lat": 48.0978,
-                            "lon": -84.2401
-                        },
-                        {
-                            "lat": 48.0973,
-                            "lon": -84.2418
-                        },
-                        {
-                            "lat": 47.963,
-                            "lon": -84.6559
-                        },
-                        {
-                            "lat": 47.8957,
-                            "lon": -84.8608
-                        },
-                        {
-                            "lat": 47.824,
-                            "lon": -85.1481
-                        },
-                        {
-                            "lat": 47.2346,
-                            "lon": -84.9134
-                        },
-                        {
-                            "lat": 47.3094,
-                            "lon": -85.809
-                        },
-                        {
-                            "lat": 47.4654,
-                            "lon": -86.1345
-                        }
-                    ]
-                },
-                {
-                    "area_description": "Agawa - Lake Superior Park",
-                    "polygon": [
-                        {
-                            "lat": 47.824,
-                            "lon": -85.1481
-                        },
-                        {
-                            "lat": 47.8957,
-                            "lon": -84.8608
-                        },
-                        {
-                            "lat": 47.963,
-                            "lon": -84.6559
-                        },
-                        {
-                            "lat": 48.0973,
-                            "lon": -84.2418
-                        },
-                        {
-                            "lat": 48.0978,
-                            "lon": -84.2401
-                        },
-                        {
-                            "lat": 48.0981,
-                            "lon": -84.2352
-                        },
-                        {
-                            "lat": 48.1106,
-                            "lon": -83.996
-                        },
-                        {
-                            "lat": 48.1107,
-                            "lon": -83.9939
-                        },
-                        {
-                            "lat": 47.2516,
-                            "lon": -83.9912
-                        },
-                        {
-                            "lat": 47.2522,
-                            "lon": -84.6283
-                        },
-                        {
-                            "lat": 47.2346,
-                            "lon": -84.9134
-                        },
-                        {
-                            "lat": 47.824,
-                            "lon": -85.1481
-                        }
-                    ]
-                },
-                {
-                    "area_description": "Searchmont - Montreal River Harbour - Batchawana Bay",
-                    "polygon": [
-                        {
-                            "lat": 47.2346,
-                            "lon": -84.9134
-                        },
-                        {
-                            "lat": 47.2522,
-                            "lon": -84.6283
-                        },
-                        {
-                            "lat": 47.2516,
-                            "lon": -83.9912
-                        },
-                        {
-                            "lat": 47.2211,
-                            "lon": -83.9911
-                        },
-                        {
-                            "lat": 46.781,
-                            "lon": -83.9907
-                        },
-                        {
-                            "lat": 46.4826,
-                            "lon": -83.8414
-                        },
-                        {
-                            "lat": 46.6516,
-                            "lon": -84.4894
-                        },
-                        {
-                            "lat": 46.6539,
-                            "lon": -84.4985
-                        },
-                        {
-                            "lat": 46.6321,
-                            "lon": -84.7351
-                        },
-                        {
-                            "lat": 47.2346,
-                            "lon": -84.9134
-                        }
-                    ]
                 },
                 {
                     "area_description": "Chapleau - Missinaibi Lake",
@@ -747,274 +807,69 @@
             ]
         },
         {
-            "identifier": "urn:oid:2.49.0.1.124.1784057481.2025",
+            "identifier": "urn:oid:2.49.0.1.124.2566625311.2025",
             "sender": "cap-pac@canada.ca",
-            "sent": "2025-09-22T23:36:16-00:00",
+            "sent": "2025-09-23T01:41:49-00:00",
             "status": "Actual",
             "msgType": "Update",
             "scope": "Public",
-            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.2198766094.2025,2025-09-22T23:35:17-00:00",
-            "headline": "squall warning in effect",
-            "event": "squall",
+            "references": "cap-pac@canada.ca,urn:oid:2.49.0.1.124.2200351018.2025,2025-09-22T17:06:00-00:00",
+            "headline": "special weather statement changed",
+            "event": "weather",
             "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Possible",
-            "effective": "2025-09-22T23:35:17-00:00",
-            "expires": "2025-09-23T02:34:17-00:00",
-            "description": "\nSqualls with wind gusts up to 35 knots and hail of 1 to 2 centimetres are expected or occurring in the area.\n\nA strong thunderstorm is tracking across northern Lake Huron, moving northeast at 20 knots toward western Manitoulin Island.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.\n",
-            "instruction": "\nTake cover immediately, if threatening weather approaches.\n",
+            "severity": "Minor",
+            "certainty": "Unknown",
+            "effective": "2025-09-23T01:41:49-00:00",
+            "expires": "2025-09-23T01:41:49-00:00",
+            "description": "\n###\n",
+            "instruction": null,
             "affected_areas": [
                 {
-                    "area_description": "Northern Lake Huron",
+                    "area_description": "Elliot Lake - Ranger Lake",
                     "polygon": [
                         {
-                            "lat": 45.6446,
-                            "lon": -81.965
+                            "lat": 46.9695,
+                            "lon": -82.6356
                         },
                         {
-                            "lat": 45.6957,
-                            "lon": -81.8568
+                            "lat": 46.9696,
+                            "lon": -81.939
                         },
                         {
-                            "lat": 45.7199,
-                            "lon": -81.7625
+                            "lat": 46.6086,
+                            "lon": -81.939
                         },
                         {
-                            "lat": 45.6849,
-                            "lon": -81.7154
+                            "lat": 46.6086,
+                            "lon": -82.0579
                         },
                         {
-                            "lat": 45.5579,
-                            "lon": -81.863
+                            "lat": 46.2733,
+                            "lon": -82.0579
                         },
                         {
-                            "lat": 45.5141,
-                            "lon": -81.8381
+                            "lat": 46.2733,
+                            "lon": -82.82
                         },
                         {
-                            "lat": 45.4832,
-                            "lon": -81.8194
+                            "lat": 46.4826,
+                            "lon": -83.8414
                         },
                         {
-                            "lat": 45.4427,
-                            "lon": -81.7945
+                            "lat": 46.781,
+                            "lon": -83.9907
                         },
                         {
-                            "lat": 45.3115,
-                            "lon": -81.7141
+                            "lat": 47.2211,
+                            "lon": -83.9911
                         },
                         {
-                            "lat": 45.3006,
-                            "lon": -81.7137
+                            "lat": 47.221,
+                            "lon": -82.631
                         },
                         {
-                            "lat": 45.2925,
-                            "lon": -81.7042
-                        },
-                        {
-                            "lat": 45.2883,
-                            "lon": -81.6999
-                        },
-                        {
-                            "lat": 45.2541,
-                            "lon": -81.6791
-                        },
-                        {
-                            "lat": 45.1907,
-                            "lon": -81.5569
-                        },
-                        {
-                            "lat": 45.081,
-                            "lon": -81.3896
-                        },
-                        {
-                            "lat": 44.7061,
-                            "lon": -81.2189
-                        },
-                        {
-                            "lat": 44.7035,
-                            "lon": -81.273
-                        },
-                        {
-                            "lat": 44.7041,
-                            "lon": -81.2898
-                        },
-                        {
-                            "lat": 44.7096,
-                            "lon": -82.3729
-                        },
-                        {
-                            "lat": 45.3386,
-                            "lon": -82.5186
-                        },
-                        {
-                            "lat": 45.8212,
-                            "lon": -83.5971
-                        },
-                        {
-                            "lat": 45.94,
-                            "lon": -83.4874
-                        },
-                        {
-                            "lat": 45.9405,
-                            "lon": -83.487
-                        },
-                        {
-                            "lat": 45.9348,
-                            "lon": -83.4701
-                        },
-                        {
-                            "lat": 45.9085,
-                            "lon": -83.273
-                        },
-                        {
-                            "lat": 45.9069,
-                            "lon": -83.2611
-                        },
-                        {
-                            "lat": 45.9014,
-                            "lon": -83.2302
-                        },
-                        {
-                            "lat": 45.6446,
-                            "lon": -81.965
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "identifier": "urn:oid:2.49.0.1.124.2198766094.2025",
-            "sender": "cap-pac@canada.ca",
-            "sent": "2025-09-22T23:35:17-00:00",
-            "status": "Actual",
-            "msgType": "Alert",
-            "scope": "Public",
-            "references": null,
-            "headline": "squall warning in effect",
-            "event": "squall",
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Possible",
-            "effective": "2025-09-22T23:35:17-00:00",
-            "expires": "2025-09-23T02:34:17-00:00",
-            "description": "\nSqualls with wind gusts up to 35 knots and hail of 1 to 2 centimetres are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.\n",
-            "instruction": "\nTake cover immediately, if threatening weather approaches.\n",
-            "affected_areas": [
-                {
-                    "area_description": "Northern Lake Huron",
-                    "polygon": [
-                        {
-                            "lat": 45.6446,
-                            "lon": -81.965
-                        },
-                        {
-                            "lat": 45.6957,
-                            "lon": -81.8568
-                        },
-                        {
-                            "lat": 45.7199,
-                            "lon": -81.7625
-                        },
-                        {
-                            "lat": 45.6849,
-                            "lon": -81.7154
-                        },
-                        {
-                            "lat": 45.5579,
-                            "lon": -81.863
-                        },
-                        {
-                            "lat": 45.5141,
-                            "lon": -81.8381
-                        },
-                        {
-                            "lat": 45.4832,
-                            "lon": -81.8194
-                        },
-                        {
-                            "lat": 45.4427,
-                            "lon": -81.7945
-                        },
-                        {
-                            "lat": 45.3115,
-                            "lon": -81.7141
-                        },
-                        {
-                            "lat": 45.3006,
-                            "lon": -81.7137
-                        },
-                        {
-                            "lat": 45.2925,
-                            "lon": -81.7042
-                        },
-                        {
-                            "lat": 45.2883,
-                            "lon": -81.6999
-                        },
-                        {
-                            "lat": 45.2541,
-                            "lon": -81.6791
-                        },
-                        {
-                            "lat": 45.1907,
-                            "lon": -81.5569
-                        },
-                        {
-                            "lat": 45.081,
-                            "lon": -81.3896
-                        },
-                        {
-                            "lat": 44.7061,
-                            "lon": -81.2189
-                        },
-                        {
-                            "lat": 44.7035,
-                            "lon": -81.273
-                        },
-                        {
-                            "lat": 44.7041,
-                            "lon": -81.2898
-                        },
-                        {
-                            "lat": 44.7096,
-                            "lon": -82.3729
-                        },
-                        {
-                            "lat": 45.3386,
-                            "lon": -82.5186
-                        },
-                        {
-                            "lat": 45.8212,
-                            "lon": -83.5971
-                        },
-                        {
-                            "lat": 45.94,
-                            "lon": -83.4874
-                        },
-                        {
-                            "lat": 45.9405,
-                            "lon": -83.487
-                        },
-                        {
-                            "lat": 45.9348,
-                            "lon": -83.4701
-                        },
-                        {
-                            "lat": 45.9085,
-                            "lon": -83.273
-                        },
-                        {
-                            "lat": 45.9069,
-                            "lon": -83.2611
-                        },
-                        {
-                            "lat": 45.9014,
-                            "lon": -83.2302
-                        },
-                        {
-                            "lat": 45.6446,
-                            "lon": -81.965
+                            "lat": 46.9695,
+                            "lon": -82.6356
                         }
                     ]
                 }
